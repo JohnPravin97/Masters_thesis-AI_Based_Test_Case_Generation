@@ -1,0 +1,27 @@
+# Do not include the output folder.
+*/output/
+
+# ignore the mycfg file.
+**/mycfg.py
+
+# ignore all the pycaches folder
+**/__pycache__/
+
+**/.env
+
+adapt_and_manipulate_scenario/parameter_manipulate_remove_me.json
+
+
+# old files
+generate_scenario/generated_output_remove_me
+
+# comment me later - output
+output
+
+**/_video_out
+
+**/_out
+
+png_to_video_convertor.py
+
+time_taken_calculator.py
