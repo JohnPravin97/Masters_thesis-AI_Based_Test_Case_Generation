@@ -1,0 +1,55 @@
+
+{
+    "VehicleDetails": {
+        "CarDetails":
+        {    
+            "VehicleType": "car",
+            "VehicleName": ["vehicle.dodge.charger_police_2020", "vehicle.tesla.model3", "vehicle.audi.tt", "vehicle.ford.mustang", "vehicle.jeep.wrangler_rubicon","vehicle.mercedes.coupe_2020",
+            "vehicle.carlamotors.carlacola", "vehicle.tesla.cybertruck", "vehicle.ford.ambulance"],
+            "VehicleAbsoluteSpeed": 15.0
+        }, 
+        "CyclistDetails":
+        {
+            "VehicleType": "bicycle",
+            "VehicleName": ["vehicle.diamondback.century", "vehicle.bh.crossbike", "vehicle.gazelle.omafiets"],
+            "VehicleAbsoluteSpeed": 5.0
+        }
+    },
+
+    "WalkerDetails":
+    {
+        "PedestrianDetails": 
+        {   
+            "WalkerMass": 90.0,
+            "WalkerType": "pedestrian",
+            "WalkerName": ["walker.pedestrian.0001", "walker.pedestrian.0002", "walker.pedestrian.0015", "walker.pedestrian.0016", "walker.pedestrian.0038", "walker.pedestrian.0030", "walker.pedestrian.0011", "walker.pedestrian.0009"]
+        }
+    }, 
+    "VehicleParameters":
+    {
+        "BoundingBox": [2.1, 4.5, 1.8, 1.5, 0, 0.9],
+
+        "FrontAxle": [0.5, 0.6, 1.8, 3.1, 0.3],
+        "RearAxle": [0.0, 0.6, 1.8, 0.0, 0.3],
+        "MaxDetails" : [69, 200, 10]
+        }, 
+
+    "WalkerParameters":
+    {
+        "BoundingBox": [2.1, 4.5, 1.8, 1.5, 0, 0.9]
+    },
+    "EnviromentParameters": 
+        {
+        "TimeofDay": [2024, 3, 8, 10, 0, 0],
+        "Sun":[0.85, 1.31, 0],
+        "Fog": 100000.0,
+        "Precipitation": ["dry", 0.0],
+        "Weather": "free",
+        "RoadCondition": 1.0
+        
+    },
+    "CarlaAutoPilot": ["carla_autopilot"], 
+    "SimpleControl": ["simple_vehicle_control"], 
+    "ADASEvaluationMetrics": ["criteria_RunningRedLightTest", "criteria_RunningStopTest", "criteria_OffRoadTest", "criteria_CollisionTest", "criteria_WrongLaneTest", "criteria_OnSidewalkTest", "criteria_DrivenDistanceTest"], 
+    "CarlaAutoPilotEvaluationMetrics": ["criteria_RunningRedLightTest", "criteria_RunningStopTest", "criteria_OffRoadTest", "criteria_CollisionTest", "criteria_WrongLaneTest", "criteria_OnSidewalkTest", "criteria_DrivenDistanceTest"]
+}

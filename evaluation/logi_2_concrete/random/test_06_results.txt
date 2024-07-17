@@ -1,0 +1,60 @@
+Test_Number= 06,
+ Iterations = 1, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_on_the_same_lane', Time_Taken = 21.11s, Result = SUCCESS 
+
+Test_Number= 06,
+ Iterations = 2, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_on_the_same_lane', Time_Taken = 17.49s, Result = SUCCESS 
+
+Test_Number= 06,
+ Iterations = 3, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_on_the_same_lane', Time_Taken = 17.67s, Result = SUCCESS 
+
+Test_Number= 06,
+ Iterations = 4, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_on_the_same_lane', Time_Taken = 19.73s, Result = SUCCESS 
+
+Test_Number= 06,
+ Iterations = 5, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_on_the_same_lane', Time_Taken = 17.69s, Result = SUCCESS 
+
+Test_Number= 06,
+ Iterations = 6, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_on_the_same_lane', Time_Taken = 17.73s, Result = SUCCESS 
+
+Test_Number= 06,
+ Iterations = 7, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_on_the_same_lane', Time_Taken = 17.68s, Result = SUCCESS 
+
+Test_Number= 06,
+ Iterations = 8, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_on_the_same_lane', Time_Taken = 17.34s, Result = SUCCESS 
+
+Test_Number= 06,
+ Iterations = 9, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_on_the_same_lane', Time_Taken = 17.54s, Result = SUCCESS 
+
+Test_Number= 06,
+ Iterations = 10, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_on_the_same_lane', Time_Taken = 17.67s, Result = SUCCESS 
+
+Test_Number= 06,
+ Iterations = 11, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_on_the_same_lane', Time_Taken = 17.57s, Result = SUCCESS 
+
+Test_Number= 06,
+ Iterations = 12, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_on_the_same_lane', Time_Taken = 17.9s, Result = SUCCESS 
+
+Test_Number= 06,
+ Iterations = 13, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_on_the_same_lane', Time_Taken = 17.82s, Result = SUCCESS 
+
+Test_Number= 06,
+ Iterations = 14, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_on_the_same_lane', Time_Taken = 18.49s, Result = SUCCESS 
+
+Test_Number= 06,
+ Iterations = 15, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_on_the_same_lane', Time_Taken = 17.54s, Result = SUCCESS 
+

@@ -1,0 +1,7 @@
+"""
+Input:
+The ego (hero) vehicle shall be tested and controlled by the Carla Autopilot.
+The scenario shall contain an pedestrian crossing in front of the ego vehicle and an another pedestrian a bit further in front on a 4-way intersection.
+
+Output:
+"""

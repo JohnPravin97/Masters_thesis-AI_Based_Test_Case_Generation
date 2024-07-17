@@ -1,0 +1,9 @@
+""" 
+## Role:
+To test and validate the hero vehicle performance in an scenario, a concrete value (concrete scenario) has to be picked from a set of values (logical scenario) associated with hero vehicle and either adversary vehicle or bicycle or pedestrian or weathe,
+You are an excellent optimizer. Your main objective is to induce failure of the hero vehicle by picking a concrete value from the set of parameter associated with the hero vehicle or adversary vehicle or bicycle or pedestrian or weather. 
+Your tasks is to sample a best value from the range of values for all the parameters and the corresponding test score of the hero vehicle in that scenario would be given back to you as an feedback. 
+Your job is to make the next best sampling (that you think) based on the results of the previous sample, provided as a list . 
+You will find all the parameters and their corresponding ranges under the context section. 
+Generate a JSON output, which can be read using python JSON library, with each parameters as keys and their value as the values.
+"""

@@ -1,0 +1,803 @@
+Iteration - 1 
+True output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'sun', 'comment': 'Default controller to ADAS and weather to Sun as no specific details provided.'} 
+Result - SUCCESS 
+Time taken - 5.752126455307007s 
+correct prediction - 1
+overall time taken - 5.752126455307007 from 1 to 1 iterations
+ 
+Iteration - 2 
+True output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_pedestrian_crossing_in_front', 'weather': 'Fog'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_pedestrian_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 0, 'pedestrian': 1}, 'iterations': 15, 'weather': 'Fog', 'comment': 'Chosen Karlsruhe map for the multi-lane road feature. Default controller to ADAS. Foggy weather condition specified.'} 
+Result - SUCCESS 
+Time taken - 6.005522966384888s 
+correct prediction - 2
+overall time taken - 11.757649421691895 from 1 to 2 iterations
+ 
+Iteration - 3 
+True output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_bicycle_on_the_same_lane', 'weather': 'Rain'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Rain', 'comment': 'Chosen Town01 Map as specified. Default controller to ADAS. Weather chosen based on input.'} 
+Result - SUCCESS 
+Time taken - 5.126065969467163s 
+correct prediction - 3
+overall time taken - 16.883715391159058 from 1 to 3 iterations
+ 
+Iteration - 4 
+True output - {'map': 'Karlsruhe', 'road': 'single_lane', 'scenario': 'hero_and_adversary_on_the_same_lane', 'weather': 'Sun'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'single_lane', 'scenario': 'hero_and_adversary_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'sun', 'comment': 'Chosen Karlsruhe for its single-lane road specification. Default controller to ADAS. Weather specified as sun.'} 
+Result - SUCCESS 
+Time taken - 8.431030750274658s 
+correct prediction - 4
+overall time taken - 25.314746141433716 from 1 to 4 iterations
+ 
+Iteration - 5 
+True output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_adversary_different_direction_route'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_adversary_different_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Default controller set to ADAS and default weather to Sun due to lack of specific weather conditions mentioned.'} 
+Result - SUCCESS 
+Time taken - 5.673314571380615s 
+correct prediction - 5
+overall time taken - 30.98806071281433 from 1 to 5 iterations
+ 
+Iteration - 6 
+True output - {'map': 'Karlsruhe', 'road': '3_way_intersection', 'scenario': 'hero_and_pedestrian_crossing_in_front', 'weather': 'Fog'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '3_way_intersection', 'scenario': 'hero_and_pedestrian_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 0, 'pedestrian': 1}, 'iterations': 15, 'weather': 'Fog', 'comment': 'Chosen Karlsruhe map based on input specifications. Default controller to ADAS. weather condition specified as Fog.'} 
+Result - SUCCESS 
+Time taken - 7.416269063949585s 
+correct prediction - 6
+overall time taken - 38.404329776763916 from 1 to 6 iterations
+ 
+Iteration - 7 
+True output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_bicycle_crossing_in_front'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_bicycle_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Default controller set to ADAS. Weather condition set to Sun due to lack of specific weather condition mentioned. Scenario and map details matched with the requirement.'} 
+Result - SUCCESS 
+Time taken - 5.814338445663452s 
+correct prediction - 7
+overall time taken - 44.21866822242737 from 1 to 7 iterations
+ 
+Iteration - 8 
+True output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_adversary_same_direction_route', 'weather': 'Rain'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_adversary_same_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Rain', 'comment': 'Chosen controller to ADAS based on available options with no specific controller mentioned.'} 
+Result - SUCCESS 
+Time taken - 7.57099986076355s 
+correct prediction - 8
+overall time taken - 51.78966808319092 from 1 to 8 iterations
+ 
+Iteration - 9 
+True output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_2_pedestrians_crossing_in_front', 'weather': 'Sun'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_2_pedestrians_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 0, 'pedestrian': 2}, 'iterations': 15, 'weather': 'sun', 'comment': 'Chosen Town01 map with a 3_way_intersection. Default controller to ADAS. Scenario, actors, and weather specified as per the user requirements.'} 
+Result - SUCCESS 
+Time taken - 6.022973299026489s 
+correct prediction - 9
+overall time taken - 57.81264138221741 from 1 to 9 iterations
+ 
+Iteration - 10 
+True output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_bicycle_opposite_direction_route'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_bicycle_different_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Default controller to ADAS as no specific controller mentioned. Weather default to Sun as no specific weather condition mentioned'} 
+Result - Failed 
+Time taken - 7.509311676025391s 
+correct prediction - 9
+overall time taken - 65.3219530582428 from 1 to 10 iterations
+ 
+Iteration - 11 
+True output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'weather': 'Fog'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Fog', 'comment': 'Default controller to ADAS. Chosen fog from available weather test parameters.'} 
+Result - SUCCESS 
+Time taken - 5.880941390991211s 
+correct prediction - 10
+overall time taken - 71.20289444923401 from 1 to 11 iterations
+ 
+Iteration - 12 
+True output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_adversary_on_the_same_lane', 'weather': 'Rain'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_adversary_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'rain', 'comment': 'Chosen scenario as per requirements with specified map, road, and weather conditions. Default controller to ADAS.'} 
+Result - SUCCESS 
+Time taken - 5.925916910171509s 
+correct prediction - 11
+overall time taken - 77.12881135940552 from 1 to 12 iterations
+ 
+Iteration - 13 
+True output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_adversary_and_2_pedestrians_crossing_in_front', 'weather': 'Sun'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_adversary_and_2_pedestrians_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 2}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Default controller to ADAS. weather chosen based on available options with scenario explicitly mentioned fitting the Town01 map and road context.'} 
+Result - SUCCESS 
+Time taken - 6.7895119190216064s 
+correct prediction - 12
+overall time taken - 83.91832327842712 from 1 to 13 iterations
+ 
+Iteration - 14 
+True output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_adversary_different_direction_route', 'weather': 'Sun'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_adversary_different_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'sun', 'comment': "Default controller to ADAS. Scenario and road are chosen based on Karlsruhe's available options."} 
+Result - SUCCESS 
+Time taken - 6.537093162536621s 
+correct prediction - 13
+overall time taken - 90.45541644096375 from 1 to 14 iterations
+ 
+Iteration - 15 
+True output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_bicycle_on_the_same_lane'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'sun', 'comment': "Default to ADAS for the controller and sun for the weather as there's no specific weather condition mentioned."} 
+Result - SUCCESS 
+Time taken - 5.977709770202637s 
+correct prediction - 14
+overall time taken - 96.43312621116638 from 1 to 15 iterations
+ 
+Iteration - 16 
+True output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_adversary_and_2_pedestrians_crossing_in_front', 'weather': 'Rain'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_adversary_and_2_pedestrians_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 2}, 'iterations': 15, 'weather': 'Rain', 'comment': 'Chosen ADAS as the default controller. scenario and weather parameters are specified in the input.'} 
+Result - SUCCESS 
+Time taken - 5.988783121109009s 
+correct prediction - 15
+overall time taken - 102.42190933227539 from 1 to 16 iterations
+ 
+Iteration - 17 
+True output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_bicycle_same_direction_route', 'weather': 'Sun'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_bicycle_same_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'sun', 'comment': 'Controller defaulted to ADAS. Weather specified as sun. The scenario matches the criteria of actors following the same direction on a specified road type.'} 
+Result - SUCCESS 
+Time taken - 6.6146509647369385s 
+correct prediction - 16
+overall time taken - 109.03656029701233 from 1 to 17 iterations
+ 
+Iteration - 18 
+True output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_pedestrian_crossing_in_front', 'weather': 'Fog'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_pedestrian_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 0, 'pedestrian': 1}, 'iterations': 15, 'weather': 'Fog', 'comment': 'Chosen Town01 for the map as it supports the required road type. Default controller to ADAS. Weather chosen based on available options with specified condition as foggy.'} 
+Result - SUCCESS 
+Time taken - 7.165131568908691s 
+correct prediction - 17
+overall time taken - 116.20169186592102 from 1 to 18 iterations
+ 
+Iteration - 19 
+True output - {'map': 'Karlsruhe', 'road': '3_way_intersection', 'scenario': 'hero_and_2_pedestrians_crossing_in_front', 'weather': 'Rain'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '3_way_intersection', 'scenario': 'hero_and_2_pedestrians_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 0, 'pedestrian': 2}, 'iterations': 15, 'weather': 'Rain', 'comment': "Chosen Karlsruhe Map due to the 3-way intersection scenario. Default controller to ADAS. Weather chosen as Rain to match the 'rainstorm' condition."} 
+Result - SUCCESS 
+Time taken - 6.245085954666138s 
+correct prediction - 18
+overall time taken - 122.44677782058716 from 1 to 19 iterations
+ 
+Iteration - 20 
+True output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'weather': 'Sun'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'sun', 'comment': "Default controller to ADAS. Chosen 'hero_and_bicycle_on_the_same_lane' scenario to match the requirement, despite mentioning an adversary, due to matching scenario patterns."} 
+Result - Failed 
+Time taken - 6.654613494873047s 
+correct prediction - 18
+overall time taken - 129.1013913154602 from 1 to 20 iterations
+ 
+Iteration - 21 
+True output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_pedestrian_crossing_in_front', 'weather': 'Fog'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_pedestrian_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 0, 'pedestrian': 1}, 'iterations': 15, 'weather': 'fog', 'comment': 'Since the scenario is on a single-lane road with a pedestrian, Town01 and single_lane have been chosen. Default controller to ADAS with no specific controller mentioned. Weather chosen as fog based on the given condition.'} 
+Result - SUCCESS 
+Time taken - 7.413067579269409s 
+correct prediction - 19
+overall time taken - 136.51445889472961 from 1 to 21 iterations
+ 
+Iteration - 22 
+True output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_adversary_and_2_pedestrians_crossing_in_front', 'weather': 'Sun'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_adversary_and_2_pedestrians_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 2}, 'iterations': 15, 'weather': 'sun', 'comment': "Selected scenario and map explicitly mentioned. Weather set to 'sun' based on input."} 
+Result - SUCCESS 
+Time taken - 5.460633277893066s 
+correct prediction - 20
+overall time taken - 141.97509217262268 from 1 to 22 iterations
+ 
+Iteration - 23 
+True output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_bicycle_and_pedestrian_crossing_in_front'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_bicycle_and_pedestrian_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 1}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Default weather to Sun and controller to ADAS as they are not specified in the input.'} 
+Result - SUCCESS 
+Time taken - 5.010800123214722s 
+correct prediction - 21
+overall time taken - 146.9858922958374 from 1 to 23 iterations
+ 
+Iteration - 24 
+True output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_adversary_on_the_same_lane', 'weather': 'Fog'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_adversary_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Fog', 'comment': 'Chosen Karlsruhe Map since the multi-lane road is available in Karlsruhe. Default controller to ADAS. Weather specified as Fog.'} 
+Result - SUCCESS 
+Time taken - 6.652070999145508s 
+correct prediction - 22
+overall time taken - 153.6379632949829 from 1 to 24 iterations
+ 
+Iteration - 25 
+True output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_adversary_different_direction_route', 'weather': 'Sun'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_adversary_different_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Chosen Town01 and 3_way_intersection as specified. Default controller to ADAS. Weather specified as Sunny.'} 
+Result - SUCCESS 
+Time taken - 5.427484035491943s 
+correct prediction - 23
+overall time taken - 159.06544733047485 from 1 to 25 iterations
+ 
+Iteration - 26 
+True output - {'map': 'Karlsruhe', 'road': 'single_lane', 'scenario': 'hero_and_bicycle_crossing_in_front', 'weather': 'Sun'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'single_lane', 'scenario': 'hero_and_bicycle_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': "Chosen 'Karlsruhe' for its 'single_lane' road availability. Default controller to ADAS. Weather specified as 'Sun'."} 
+Result - SUCCESS 
+Time taken - 5.972652912139893s 
+correct prediction - 24
+overall time taken - 165.03810024261475 from 1 to 26 iterations
+ 
+Iteration - 27 
+True output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_bicycle_same_direction_adversary_opposite_route'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_bicycle_same_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Selected 3_way_intersection based on the described scenario. Default controller to ADAS. Weather chosen based on available options with no specific weather condition mentioned'} 
+Result - Failed 
+Time taken - 5.869112968444824s 
+correct prediction - 24
+overall time taken - 170.90721321105957 from 1 to 27 iterations
+ 
+Iteration - 28 
+True output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_2_pedestrians_crossing_in_front', 'weather': 'Sun'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_2_pedestrians_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 0, 'pedestrian': 2}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Map and road explicitly specified. Default controller to ADAS. Scenario chosen based on input, testing with two pedestrians crossing in front on a multi-lane road.'} 
+Result - SUCCESS 
+Time taken - 8.071655988693237s 
+correct prediction - 25
+overall time taken - 178.9788691997528 from 1 to 28 iterations
+ 
+Iteration - 29 
+True output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_adversary_on_the_same_lane'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_adversary_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Default controller to ADAS. Default weather to Sun as no specific weather condition was mentioned.'} 
+Result - SUCCESS 
+Time taken - 5.656047582626343s 
+correct prediction - 26
+overall time taken - 184.63491678237915 from 1 to 29 iterations
+ 
+Iteration - 30 
+True output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_bicycle_different_direction_route', 'weather': 'Rain'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_bicycle_different_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Rain', 'comment': 'Default controller to ADAS. Weather specified as rain. Hero and bicycle actors configured as per scenario requirement.'} 
+Result - SUCCESS 
+Time taken - 7.470086574554443s 
+correct prediction - 27
+overall time taken - 192.1050033569336 from 1 to 30 iterations
+ 
+Iteration - 31 
+True output - {'road': 'single_lane', 'scenario': 'hero_and_pedestrian_crossing_in_front'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_pedestrian_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 0, 'pedestrian': 1}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Chose Town01 for availability of single_lane road.Default controller to ADAS. Weather chosen as Sun for lack of specific weather condition.'} 
+Result - SUCCESS 
+Time taken - 5.817660808563232s 
+correct prediction - 28
+overall time taken - 197.92266416549683 from 1 to 31 iterations
+ 
+Iteration - 32 
+True output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_bicycle_crossing_in_front'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_bicycle_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Chosen Karlsruhe Map since multi-lane road is specified. Scenario described indicates scenario choice. Default controller to ADAS and weather to Sun due to unspecified weather conditions.'} 
+Result - SUCCESS 
+Time taken - 6.246741533279419s 
+correct prediction - 29
+overall time taken - 204.16940569877625 from 1 to 32 iterations
+ 
+Iteration - 33 
+True output - {'road': 'single_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'weather': 'Sun'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'sun', 'comment': 'Selected Town01 for the single-lane road. Default controller to ADAS. Weather condition specified as sun.'} 
+Result - SUCCESS 
+Time taken - 6.16902494430542s 
+correct prediction - 30
+overall time taken - 210.33843064308167 from 1 to 33 iterations
+ 
+Iteration - 34 
+True output - {'road': 'multi_lane', 'scenario': 'hero_and_adversary_on_the_same_lane'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_adversary_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': "Chosen Karlsruhe due to the availability of the specified multi-lane road. Default controller to ADAS. Weather parameter chosen as 'Sun' due to lack of specific weather condition mentioned."} 
+Result - SUCCESS 
+Time taken - 5.578789949417114s 
+correct prediction - 31
+overall time taken - 215.91722059249878 from 1 to 34 iterations
+ 
+Iteration - 35 
+True output - {'road': '3_way_intersection', 'scenario': 'hero_and_adversary_same_direction_route', 'weather': 'Rain'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_adversary_same_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Rain', 'comment': 'Chosen Town01 as it contains a 3_way_intersection road. Default controller set to ADAS. Weather specified as Rain.'} 
+Result - SUCCESS 
+Time taken - 4.7822816371917725s 
+correct prediction - 32
+overall time taken - 220.69950222969055 from 1 to 35 iterations
+ 
+Iteration - 36 
+True output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_2_pedestrians_crossing_in_front', 'weather': 'Sun'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_2_pedestrians_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 0, 'pedestrian': 2}, 'iterations': 15, 'weather': 'sun', 'comment': 'Selected Karlsruhe Map as it contains 4_way_intersection. Defaulted to ADAS for controller as unspecified directly.'} 
+Result - SUCCESS 
+Time taken - 5.8397135734558105s 
+correct prediction - 33
+overall time taken - 226.53921580314636 from 1 to 36 iterations
+ 
+Iteration - 37 
+True output - {'road': 'single_lane', 'scenario': 'hero_and_bicycle_on_the_same_lane', 'weather': 'Fog'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'fog', 'comment': 'Chosen Town01 for single lane road availability. Default controller to ADAS. Weather chosen based on provided condition.'} 
+Result - SUCCESS 
+Time taken - 8.031184434890747s 
+correct prediction - 34
+overall time taken - 234.5704002380371 from 1 to 37 iterations
+ 
+Iteration - 38 
+True output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_pedestrian_crossing_in_front', 'weather': 'Rain'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_pedestrian_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 0, 'pedestrian': 1}, 'iterations': 15, 'weather': 'Rain', 'comment': 'Chosen Karlsruhe map to match specified road type. Default controller to ADAS. Weather specified as Rain.'} 
+Result - SUCCESS 
+Time taken - 8.472850799560547s 
+correct prediction - 35
+overall time taken - 243.04325103759766 from 1 to 38 iterations
+ 
+Iteration - 39 
+True output - {'road': '3_way_intersection', 'scenario': 'hero_and_adversary_same_direction_route', 'controller': 'ADAS'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_adversary_same_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Selected Town01 for the 3 way intersection scenario. Defaulted weather to Sun due to unspecified weather condition.'} 
+Result - SUCCESS 
+Time taken - 5.569194316864014s 
+correct prediction - 36
+overall time taken - 248.61244535446167 from 1 to 39 iterations
+ 
+Iteration - 40 
+True output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_adversary_and_2_pedestrians_crossing_in_front', 'weather': 'Sun'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_adversary_and_2_pedestrians_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 2}, 'iterations': 15, 'weather': 'sun', 'comment': 'Map chosen as Karlsruhe since the 4-way intersection is specified. Default controller to ADAS. Weather selected as sun based on the input.'} 
+Result - SUCCESS 
+Time taken - 7.238996505737305s 
+correct prediction - 37
+overall time taken - 255.85144186019897 from 1 to 40 iterations
+ 
+Iteration - 41 
+True output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_pedestrian_crossing_in_front', 'weather': 'Rain'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_pedestrian_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 0, 'pedestrian': 1}, 'iterations': 15, 'weather': 'Rain', 'comment': 'Default controller set to ADAS. Rainy weather condition explicitly mentioned.'} 
+Result - SUCCESS 
+Time taken - 5.0804572105407715s 
+correct prediction - 38
+overall time taken - 260.93189907073975 from 1 to 41 iterations
+ 
+Iteration - 42 
+True output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'weather': 'Fog'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Fog', 'comment': 'Chosen Karlsruhe Map since the multi-lane road is available only in karlsruhe map. Default controller set to ADAS. Weather chosen based on input.'} 
+Result - SUCCESS 
+Time taken - 7.001779794692993s 
+correct prediction - 39
+overall time taken - 267.93367886543274 from 1 to 42 iterations
+ 
+Iteration - 43 
+True output - {'road': '3_way_intersection', 'scenario': 'hero_and_adversary_different_direction_route', 'weather': 'Sun'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_adversary_different_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'sun', 'comment': 'Chosen Town01 for its 3_way_intersection. Default controller to ADAS.'} 
+Result - SUCCESS 
+Time taken - 5.612431287765503s 
+correct prediction - 40
+overall time taken - 273.54611015319824 from 1 to 43 iterations
+ 
+Iteration - 44 
+True output - {'road': '3_way_intersection', 'scenario': 'hero_bicycle_and_pedestrian_crossing_in_front', 'weather': 'Rain'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_bicycle_and_pedestrian_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 1}, 'iterations': 15, 'weather': 'Rain', 'comment': 'Selected Town01 map as it supports 3_way_intersection. Default controller to ADAS. Weather condition directly matches the given requirement.'} 
+Result - SUCCESS 
+Time taken - 5.61915922164917s 
+correct prediction - 41
+overall time taken - 279.1652693748474 from 1 to 44 iterations
+ 
+Iteration - 45 
+True output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'weather': 'Fog'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Fog', 'comment': 'Chosen Karlsruhe map due to the availability of a multi-lane road. Default controller set to ADAS. Weather specified as foggy conditions.'} 
+Result - SUCCESS 
+Time taken - 7.414397954940796s 
+correct prediction - 42
+overall time taken - 286.5796673297882 from 1 to 45 iterations
+ 
+Iteration - 46 
+True output - {'road': '3_way_intersection', 'scenario': 'hero_and_bicycle_same_direction_adversary_opposite_route', 'controller': 'Carla_AutoPilot'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '3_way_intersection', 'scenario': 'hero_and_bicycle_same_direction_adversary_opposite_route', 'controller': 'Carla_AutoPilot', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Chosen Karlsruhe for the 3-way intersection availability. Default weather to Sun in the absence of specific weather condition mentioned.'} 
+Result - SUCCESS 
+Time taken - 7.634824275970459s 
+correct prediction - 43
+overall time taken - 294.21449160575867 from 1 to 46 iterations
+ 
+Iteration - 47 
+True output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_bicycle_same_direction_route', 'weather': 'Sun'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_bicycle_same_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'sun', 'comment': '4 way intersection is available in Karlsruhe map. Default controller set to ADAS. Weather specified as sun.'} 
+Result - SUCCESS 
+Time taken - 5.13896369934082s 
+correct prediction - 44
+overall time taken - 299.3534553050995 from 1 to 47 iterations
+ 
+Iteration - 48 
+True output - {'road': '3_way_intersection', 'scenario': 'hero_adversary_and_pedestrian_crossing_in_front', 'weather': 'Rain'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_adversary_and_pedestrian_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 1}, 'iterations': 15, 'weather': 'rain', 'comment': 'Selected Town01 map for 3_way_intersection scenario availability. Default controller to ADAS. Specific weather condition mentioned.'} 
+Result - SUCCESS 
+Time taken - 5.36136794090271s 
+correct prediction - 45
+overall time taken - 304.7148232460022 from 1 to 48 iterations
+ 
+Iteration - 49 
+True output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_bicycle_and_pedestrian_crossing_in_front', 'weather': 'Fog'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_bicycle_and_pedestrian_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 1}, 'iterations': 15, 'weather': 'fog', 'comment': 'Since 4-way intersection scenario is provided, Karlsruhe map is chosen. Default controller ADAS is selected. Weather condition specified.'} 
+Result - SUCCESS 
+Time taken - 7.345196485519409s 
+correct prediction - 46
+overall time taken - 312.0600197315216 from 1 to 49 iterations
+ 
+Iteration - 50 
+True output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_bicycle_different_direction_route', 'weather': 'Sun'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_bicycle_different_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'sun', 'comment': 'Default controller to ADAS. Chosen 3_way_intersection in Town01 based on the scenario description.'} 
+Result - SUCCESS 
+Time taken - 6.025882720947266s 
+correct prediction - 47
+overall time taken - 318.0859024524689 from 1 to 50 iterations
+ 
+Iteration - 51 
+True output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'weather': 'Rain'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Rain', 'comment': 'Selected Town01 map as per request. Assigned scenarios and actor counts based on the scenario requirements. Default controller to ADAS. Specified weather as rain.'} 
+Result - SUCCESS 
+Time taken - 6.058300971984863s 
+correct prediction - 48
+overall time taken - 324.14420342445374 from 1 to 51 iterations
+ 
+Iteration - 52 
+True output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_adversary_on_the_same_lane', 'weather': 'Fog'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_adversary_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Fog', 'comment': 'Chosen Karlsruhe Map since the multi-lane road is specified. Default controller to ADAS. Weather condition specified as foggy.'} 
+Result - SUCCESS 
+Time taken - 5.815195560455322s 
+correct prediction - 49
+overall time taken - 329.95939898490906 from 1 to 52 iterations
+ 
+Iteration - 53 
+True output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_2_pedestrians_crossing_in_front', 'weather': 'Sun'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_2_pedestrians_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 0, 'pedestrian': 2}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Chosen Karlsruhe Map since the 4-way intersection is specified. Default controller to ADAS. Weather chosen based on the sunny condition mentioned.'} 
+Result - SUCCESS 
+Time taken - 9.223725080490112s 
+correct prediction - 50
+overall time taken - 339.18312406539917 from 1 to 53 iterations
+ 
+Iteration - 54 
+True output - {'road': '3_way_intersection', 'scenario': 'hero_adversary_and_2_pedestrians_crossing_in_front'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_adversary_and_2_pedestrians_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 2}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Default map to Town01 as it fits the context of available roads for a 3-way intersection. Default controller set to ADAS, and weather set to sun from available options'} 
+Result - SUCCESS 
+Time taken - 7.350473403930664s 
+correct prediction - 51
+overall time taken - 346.53359746932983 from 1 to 54 iterations
+ 
+Iteration - 55 
+True output - {'road': '3_way_intersection', 'scenario': 'hero_and_adversary_same_direction_route', 'controller': 'Carla_AutoPilot', 'weather': 'Fog'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_adversary_same_direction_route', 'controller': 'Carla_AutoPilot', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Fog', 'comment': "Selected Town01 for 3_way_intersection as it's available in both maps but the map is not specified. Assumed default settings for unspecified details such as map when not explicitly mentioned."} 
+Result - SUCCESS 
+Time taken - 7.994488954544067s 
+correct prediction - 52
+overall time taken - 354.5280864238739 from 1 to 55 iterations
+ 
+Iteration - 56 
+True output - {'road': 'single_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'weather': 'Sun'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Chosen Town01 map due to the presence of a single-lane road. Defaulted controller to ADAS. Weather specified as Sun.'} 
+Result - SUCCESS 
+Time taken - 6.022512435913086s 
+correct prediction - 53
+overall time taken - 360.550598859787 from 1 to 56 iterations
+ 
+Iteration - 57 
+True output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_bicycle_same_direction_adversary_opposite_route', 'weather': 'Rain'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_bicycle_same_direction_adversary_opposite_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Rain', 'comment': 'The map Town01 and its road type, along with specified weather condition rain, were directly mentioned. Controller defaulted to ADAS as no specific preference was provided.'} 
+Result - SUCCESS 
+Time taken - 7.176529884338379s 
+correct prediction - 54
+overall time taken - 367.72712874412537 from 1 to 57 iterations
+ 
+Iteration - 58 
+True output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_pedestrian_crossing_in_front', 'weather': 'Fog'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_pedestrian_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 0, 'pedestrian': 1}, 'iterations': 15, 'weather': 'fog', 'comment': 'Chosen Karlsruhe Map as it supports multi-lane scenario. Default controller to ADAS. Weather condition explicitly mentioned.'} 
+Result - SUCCESS 
+Time taken - 5.9889817237854s 
+correct prediction - 55
+overall time taken - 373.71611046791077 from 1 to 58 iterations
+ 
+Iteration - 59 
+True output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_adversary_and_pedestrian_crossing_in_front'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_adversary_and_pedestrian_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 1}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Defaulted to Sun weather due to absence of specific weather condition. Controller set to ADAS by default.'} 
+Result - SUCCESS 
+Time taken - 5.204430103302002s 
+correct prediction - 56
+overall time taken - 378.92054057121277 from 1 to 59 iterations
+ 
+Iteration - 60 
+True output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_bicycle_different_direction_route', 'weather': 'Rain'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_bicycle_different_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Rain', 'comment': 'Chosen Karlsruhe map as it contains a 4-way intersection. Default controller to ADAS. Weather specified as Rain.'} 
+Result - SUCCESS 
+Time taken - 7.142423868179321s 
+correct prediction - 57
+overall time taken - 386.0629644393921 from 1 to 60 iterations
+ 
+Iteration - 61 
+True output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_adversary_on_the_same_lane', 'weather': 'Fog'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_adversary_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Fog', 'comment': 'Chosen Karlsruhe Map as it includes multi-lane roads. Default controller to ADAS. Weather condition specified as fog.'} 
+Result - SUCCESS 
+Time taken - 6.105605363845825s 
+correct prediction - 58
+overall time taken - 392.1685698032379 from 1 to 61 iterations
+ 
+Iteration - 62 
+True output - {'road': 'single_lane', 'scenario': 'hero_and_pedestrian_crossing_in_front', 'weather': 'Rain'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_pedestrian_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 0, 'pedestrian': 1}, 'iterations': 15, 'weather': 'rain', 'comment': 'Chosen Town01 map due to the required single lane scenario. Default controller to ADAS. weather chosen based on available options with specified rainy weather condition.'} 
+Result - SUCCESS 
+Time taken - 5.325754880905151s 
+correct prediction - 59
+overall time taken - 397.49432468414307 from 1 to 62 iterations
+ 
+Iteration - 63 
+True output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_bicycle_different_direction_route'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_bicycle_different_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Default controller to ADAS and default weather to Sun based on available options with no specific weather condition mentioned.'} 
+Result - SUCCESS 
+Time taken - 5.212953567504883s 
+correct prediction - 60
+overall time taken - 402.70727825164795 from 1 to 63 iterations
+ 
+Iteration - 64 
+True output - {'map': 'Karlsruhe', 'road': 'single_lane', 'scenario': 'hero_and_bicycle_on_the_same_lane', 'weather': 'Sun'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'single_lane', 'scenario': 'hero_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'sun', 'comment': 'Default controller to ADAS. Chosen based on the provided map, road, and weather conditions with no specific weather condition mentioned.'} 
+Result - SUCCESS 
+Time taken - 6.763259649276733s 
+correct prediction - 61
+overall time taken - 409.4705379009247 from 1 to 64 iterations
+ 
+Iteration - 65 
+True output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'weather': 'Fog'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'fog', 'comment': 'Karlsruhe map selected for the scenario due to the multi_lane road availability. Default controller set to ADAS. Weather condition specified as fog.'} 
+Result - SUCCESS 
+Time taken - 6.354983568191528s 
+correct prediction - 62
+overall time taken - 415.8255214691162 from 1 to 65 iterations
+ 
+Iteration - 66 
+True output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_adversary_different_direction_route', 'weather': 'Rain'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_adversary_different_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'rain', 'comment': 'Chosen Karlsruhe for 4-way intersection availability. Default controller to ADAS. weather chosen based on user specification.'} 
+Result - SUCCESS 
+Time taken - 6.50519871711731s 
+correct prediction - 63
+overall time taken - 422.3307201862335 from 1 to 66 iterations
+ 
+Iteration - 67 
+True output - {'map': 'Town01', 'road': '3_way_intersection', 'controller': 'Carla_AutoPilot', 'scenario': 'hero_and_adversary_same_direction_route', 'weather': 'Sun'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_adversary_same_direction_route', 'controller': 'Carla_AutoPilot', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Since the scenario involves a 3-way intersection, Town01 was chosen. Carla_AutoPilot controller specified by user. Weather condition explicitly mentioned.'} 
+Result - SUCCESS 
+Time taken - 5.621754884719849s 
+correct prediction - 64
+overall time taken - 427.95247507095337 from 1 to 67 iterations
+ 
+Iteration - 68 
+True output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_bicycle_and_pedestrian_crossing_in_front'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_bicycle_and_pedestrian_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 1}, 'iterations': 15, 'weather': 'sun', 'comment': 'Specifically chosen Karlsruhe map for the 4-way intersection. Defaulted controller to ADAS with sunny weather, in absence of explicit weather conditions.'} 
+Result - SUCCESS 
+Time taken - 7.405019760131836s 
+correct prediction - 65
+overall time taken - 435.3574948310852 from 1 to 68 iterations
+ 
+Iteration - 69 
+True output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_2_pedestrians_crossing_in_front', 'weather': 'Rain'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_2_pedestrians_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 0, 'pedestrian': 2}, 'iterations': 15, 'weather': 'Rain', 'comment': 'Controller defaulted to ADAS with specified parameters fitting the context.'} 
+Result - SUCCESS 
+Time taken - 5.374173879623413s 
+correct prediction - 66
+overall time taken - 440.7316687107086 from 1 to 69 iterations
+ 
+Iteration - 70 
+True output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_adversary_on_the_same_lane'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_adversary_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Default controller to ADAS. Weather chosen as Sun due to lack of specificity in weather conditions mentioned. Specific map, road, and scenario mentioned and have been used directly.'} 
+Result - SUCCESS 
+Time taken - 6.3114612102508545s 
+correct prediction - 67
+overall time taken - 447.0431299209595 from 1 to 70 iterations
+ 
+Iteration - 71 
+True output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_2_pedestrians_crossing_in_front', 'weather': 'Fog'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_2_pedestrians_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 0, 'pedestrian': 2}, 'iterations': 15, 'weather': 'Fog', 'comment': 'Selected Town01 map and 3_way_intersection based on context provided. Default controller set to ADAS. Weather condition explicitly mentioned as Fog.'} 
+Result - SUCCESS 
+Time taken - 7.219152212142944s 
+correct prediction - 68
+overall time taken - 454.2622821331024 from 1 to 71 iterations
+ 
+Iteration - 72 
+True output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_adversary_same_direction_route', 'weather': 'Rain'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_adversary_same_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Rain', 'comment': 'Selected Town01 for given map with 3-way intersection. Default controller to ADAS. Chosen weather based on available options with specified weather condition.'} 
+Result - SUCCESS 
+Time taken - 5.58501935005188s 
+correct prediction - 69
+overall time taken - 459.8473014831543 from 1 to 72 iterations
+ 
+Iteration - 73 
+True output - {'road': 'single_lane', 'scenario': 'hero_and_bicycle_crossing_in_front'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_bicycle_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Chosen Town01 for the single lane scenario. Default weather to Sun and controller to ADAS as no specific preferences were provided.'} 
+Result - SUCCESS 
+Time taken - 5.061265707015991s 
+correct prediction - 70
+overall time taken - 464.9085671901703 from 1 to 73 iterations
+ 
+Iteration - 74 
+True output - {'map': 'Karlsruhe', 'road': '3_way_intersection', 'scenario': 'hero_bicycle_and_pedestrian_crossing_in_front', 'weather': 'Fog'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '3_way_intersection', 'scenario': 'hero_bicycle_and_pedestrian_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 1}, 'iterations': 15, 'weather': 'Fog', 'comment': 'Default controller set to ADAS as no specific controller was mentioned.'} 
+Result - SUCCESS 
+Time taken - 5.838160514831543s 
+correct prediction - 71
+overall time taken - 470.74672770500183 from 1 to 74 iterations
+ 
+Iteration - 75 
+True output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_adversary_and_2_pedestrians_crossing_in_front', 'weather': 'Sun'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_adversary_and_2_pedestrians_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 2}, 'iterations': 15, 'weather': 'sun', 'comment': "Chosen Karlsruhe since it's one of the available maps that support 4-way intersection. Default controller to ADAS. Chosen weather reflects the sunny condition."} 
+Result - SUCCESS 
+Time taken - 6.924798965454102s 
+correct prediction - 72
+overall time taken - 477.67152667045593 from 1 to 75 iterations
+ 
+Iteration - 76 
+True output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_bicycle_on_the_same_lane', 'weather': 'Fog'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Fog', 'comment': "Chosen Karlsruhe Map since the multi-lane road is available only in Karlsruhe map. Default controller to ADAS. Weather chosen based on the user's input."} 
+Result - SUCCESS 
+Time taken - 7.379018783569336s 
+correct prediction - 73
+overall time taken - 485.05054545402527 from 1 to 76 iterations
+ 
+Iteration - 77 
+True output - {'road': '3_way_intersection', 'scenario': 'hero_and_adversary_different_direction_route', 'weather': 'Sun'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_adversary_different_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'sun', 'comment': "Map selected as Town01 as it has 3_way_intersection suitable for the described scenario. Chosen weather as 'sun' based on 'clear skies' description. Default controller to ADAS."} 
+Result - SUCCESS 
+Time taken - 5.535038709640503s 
+correct prediction - 74
+overall time taken - 490.58558416366577 from 1 to 77 iterations
+ 
+Iteration - 78 
+True output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_2_pedestrians_crossing_in_front', 'weather': 'Fog'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_2_pedestrians_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 0, 'pedestrian': 2}, 'iterations': 15, 'weather': 'Fog', 'comment': 'Chosen Karlsruhe map as it includes 4_way_intersection. Default controller to ADAS. Weather condition specified as fog.'} 
+Result - SUCCESS 
+Time taken - 5.308622121810913s 
+correct prediction - 75
+overall time taken - 495.8942062854767 from 1 to 78 iterations
+ 
+Iteration - 79 
+True output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'weather': 'Sun'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'sun', 'comment': 'Default controller to ADAS. Town01 map and single_lane road explicitly mentioned. Weather specified as sunny.'} 
+Result - SUCCESS 
+Time taken - 6.524353504180908s 
+correct prediction - 76
+overall time taken - 502.4185597896576 from 1 to 79 iterations
+ 
+Iteration - 80 
+True output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_bicycle_different_direction_route', 'weather': 'Rain'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_and_bicycle_different_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'rain', 'comment': 'Chosen Karlsruhe Map since the 4-way intersection is specified and available in Karlsruhe map. Default controller to ADAS. Weather chosen based on available options with specific weather condition mentioned'} 
+Result - SUCCESS 
+Time taken - 6.934540271759033s 
+correct prediction - 77
+overall time taken - 509.3531000614166 from 1 to 80 iterations
+ 
+Iteration - 81 
+True output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_bicycle_on_the_same_lane', 'weather': 'Rain'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_bicycle_same_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'rain', 'comment': 'Map and road are specified, scenario chosen based on input, and weather specified as rain. Default controller set to ADAS.'} 
+Result - Failed 
+Time taken - 7.22375750541687s 
+correct prediction - 77
+overall time taken - 516.5768575668335 from 1 to 81 iterations
+ 
+Iteration - 82 
+True output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_bicycle_same_direction_route', 'weather': 'Sun'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'sun', 'comment': 'Default controller to ADAS since no specific controller mentioned. Chosen weather based on given sunny condition.'} 
+Result - Failed 
+Time taken - 5.094089984893799s 
+correct prediction - 77
+overall time taken - 521.6709475517273 from 1 to 82 iterations
+ 
+Iteration - 83 
+True output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_adversary_and_pedestrian_crossing_in_front', 'weather': 'Fog'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_adversary_and_pedestrian_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 1}, 'iterations': 15, 'weather': 'Fog', 'comment': 'Map and road explicitly mentioned. Controller defaulted to ADAS. Weather condition provided.'} 
+Result - SUCCESS 
+Time taken - 6.224041700363159s 
+correct prediction - 78
+overall time taken - 527.8949892520905 from 1 to 83 iterations
+ 
+Iteration - 84 
+True output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_adversary_and_2_pedestrians_crossing_in_front', 'weather': 'Sun'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_adversary_and_2_pedestrians_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 2}, 'iterations': 15, 'weather': 'sun', 'comment': 'Default controller set to ADAS. Scenario, map, road, and weather parameters were chosen based on input details.'} 
+Result - SUCCESS 
+Time taken - 9.67159128189087s 
+correct prediction - 79
+overall time taken - 537.5665805339813 from 1 to 84 iterations
+ 
+Iteration - 85 
+True output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'weather': 'Rain'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Rain', 'comment': 'Chosen multi-lane scenario with specified actors under rainy weather. Default controller to ADAS.'} 
+Result - SUCCESS 
+Time taken - 5.90441370010376s 
+correct prediction - 80
+overall time taken - 543.4709942340851 from 1 to 85 iterations
+ 
+Iteration - 86 
+True output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_bicycle_crossing_in_front', 'weather': 'Fog'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_bicycle_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'fog', 'comment': 'Weather chosen based on input. Default controller set to ADAS.'} 
+Result - SUCCESS 
+Time taken - 6.67678427696228s 
+correct prediction - 81
+overall time taken - 550.1477785110474 from 1 to 86 iterations
+ 
+Iteration - 87 
+True output - {'map': 'Karlsruhe', 'road': '3_way_intersection', 'scenario': 'hero_and_bicycle_same_direction_adversary_opposite_route', 'weather': 'Sun'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '3_way_intersection', 'scenario': 'hero_and_bicycle_same_direction_adversary_opposite_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Chosen weather based on the description of a clear day. Controller defaults to ADAS. Selected scenario and map to match the inputs.'} 
+Result - SUCCESS 
+Time taken - 7.038078546524048s 
+correct prediction - 82
+overall time taken - 557.1858570575714 from 1 to 87 iterations
+ 
+Iteration - 88 
+True output - {'map': 'Karlsruhe', 'road': 'single_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'weather': 'Sun'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'single_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'sun', 'comment': 'Default controller to ADAS, given the specific scenario and weather conditions. Karlsruhe map selected based on the specified scenario availability.'} 
+Result - SUCCESS 
+Time taken - 6.05950140953064s 
+correct prediction - 83
+overall time taken - 563.245358467102 from 1 to 88 iterations
+ 
+Iteration - 89 
+True output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_adversary_same_direction_route', 'weather': 'Rain'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_adversary_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Rain', 'comment': 'Default controller to ADAS based on requirement engineering for the autonomous vehicle platform testing.'} 
+Result - Failed 
+Time taken - 5.7928571701049805s 
+correct prediction - 83
+overall time taken - 569.038215637207 from 1 to 89 iterations
+ 
+Iteration - 90 
+True output - {'map': 'Karlsruhe', 'road': '3_way_intersection', 'scenario': 'hero_and_adversary_different_direction_route', 'weather': 'Fog'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '3_way_intersection', 'scenario': 'hero_and_adversary_different_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Fog', 'comment': 'Scenario selected based on narrative. Default controller to ADAS. Weather and scenario details chosen as per provided information.'} 
+Result - SUCCESS 
+Time taken - 5.138312101364136s 
+correct prediction - 84
+overall time taken - 574.1765277385712 from 1 to 90 iterations
+ 
+Iteration - 91 
+True output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_adversary_on_the_same_lane', 'controller': 'Carla_AutoPilot'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_adversary_on_the_same_lane', 'controller': 'Carla_AutoPilot', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Controller specified as Carla_AutoPilot for the hero vehicle. Weather chosen based on available options with no specific weather condition mentioned.'} 
+Result - SUCCESS 
+Time taken - 8.064906358718872s 
+correct prediction - 85
+overall time taken - 582.24143409729 from 1 to 91 iterations
+ 
+Iteration - 92 
+True output - {'road': '3_way_intersection', 'scenario': 'hero_and_adversary_different_direction_route'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_adversary_different_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Chosen Town01 map for its compatibility with the 3_way_intersection scenario. Default weather to Sun and controller to ADAS.'} 
+Result - SUCCESS 
+Time taken - 5.751300811767578s 
+correct prediction - 86
+overall time taken - 587.9927349090576 from 1 to 92 iterations
+ 
+Iteration - 93 
+True output - {'road': 'single_lane', 'scenario': 'hero_and_pedestrian_crossing_in_front', 'weather': 'Fog'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_pedestrian_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 0, 'pedestrian': 1}, 'iterations': 15, 'weather': 'Fog', 'comment': 'Chosen Town01 map for the single lane road. Default controller to ADAS. Weather specified as foggy conditions.'} 
+Result - SUCCESS 
+Time taken - 5.649712324142456s 
+correct prediction - 87
+overall time taken - 593.6424472332001 from 1 to 93 iterations
+ 
+Iteration - 94 
+True output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_bicycle_crossing_in_front'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_and_bicycle_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'sun', 'comment': 'Selected Karlsruhe map due to multi-lane road availability. Default controller is ADAS. Weather defaulted to sun as no specific weather condition was mentioned.'} 
+Result - SUCCESS 
+Time taken - 6.576716899871826s 
+correct prediction - 88
+overall time taken - 600.2191641330719 from 1 to 94 iterations
+ 
+Iteration - 95 
+True output - {'road': 'single_lane', 'scenario': 'hero_and_bicycle_on_the_same_lane'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'single_lane', 'scenario': 'hero_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'sun', 'comment': 'Default map to Karlsruhe as it supports the specified scenario. Defaulted road to single_lane, controller to ADAS, and weather to sun due to unspecified details. Multi-lane is also a valid choice for this scenario, but single_lane is selected based on minimal context provided.'} 
+Result - SUCCESS 
+Time taken - 7.334651708602905s 
+correct prediction - 89
+overall time taken - 607.5538158416748 from 1 to 95 iterations
+ 
+Iteration - 96 
+True output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane'} 
+Pred Output - {'map': 'Karlsruhe', 'road': 'multi_lane', 'scenario': 'hero_adversary_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Chosen Karlsruhe Map for its availability of multi-lane roads. Default controller to ADAS. Weather parameter chosen as sun due to unspecified weather conditions.'} 
+Result - SUCCESS 
+Time taken - 6.8633713722229s 
+correct prediction - 90
+overall time taken - 614.4171872138977 from 1 to 96 iterations
+ 
+Iteration - 97 
+True output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_adversary_and_2_pedestrians_crossing_in_front'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '4_way_intersection', 'scenario': 'hero_adversary_and_2_pedestrians_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 2}, 'iterations': 15, 'weather': 'sun', 'comment': 'Selected Karlsruhe map and 4-way intersection road for the specified scenario. Default controller set to ADAS. Weather defaulted to Sunny due to unspecified weather conditions.'} 
+Result - SUCCESS 
+Time taken - 5.54605770111084s 
+correct prediction - 91
+overall time taken - 619.9632449150085 from 1 to 97 iterations
+ 
+Iteration - 98 
+True output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_adversary_same_direction_route', 'weather': 'Sun', 'controller': 'ADAS'} 
+Pred Output - {'map': 'Town01', 'road': '3_way_intersection', 'scenario': 'hero_and_adversary_same_direction_route', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 1, 'bicycle': 0, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Controller specified as ADAS with weather conditions and scenario details matching the given input.'} 
+Result - SUCCESS 
+Time taken - 6.790862560272217s 
+correct prediction - 92
+overall time taken - 626.7541074752808 from 1 to 98 iterations
+ 
+Iteration - 99 
+True output - {'map': 'Karlsruhe', 'road': '3_way_intersection', 'scenario': 'hero_bicycle_and_pedestrian_crossing_in_front'} 
+Pred Output - {'map': 'Karlsruhe', 'road': '3_way_intersection', 'scenario': 'hero_bicycle_and_pedestrian_crossing_in_front', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 1}, 'iterations': 15, 'weather': 'Sun', 'comment': 'Default controller set to ADAS, and weather set to Sun as no specific weather condition mentioned.'} 
+Result - SUCCESS 
+Time taken - 5.753868103027344s 
+correct prediction - 93
+overall time taken - 632.5079755783081 from 1 to 99 iterations
+ 
+Iteration - 100 
+True output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_bicycle_on_the_same_lane', 'weather': 'Fog'} 
+Pred Output - {'map': 'Town01', 'road': 'single_lane', 'scenario': 'hero_and_bicycle_on_the_same_lane', 'controller': 'ADAS', 'actors': {'hero_vehicle': 1, 'adversary_vehicle': 0, 'bicycle': 1, 'pedestrian': 0}, 'iterations': 15, 'weather': 'Fog', 'comment': 'Default controller to ADAS. Weather condition was specified.'} 
+Result - SUCCESS 
+Time taken - 6.133416414260864s 
+correct prediction - 94
+overall time taken - 638.641391992569 from 1 to 100 iterations
+ 
+In total: 
+Correct Prediction - 94 out of 100
+Overall time taken - 638.64 secs

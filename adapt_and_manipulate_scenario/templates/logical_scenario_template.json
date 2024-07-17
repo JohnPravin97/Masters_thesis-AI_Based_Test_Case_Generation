@@ -1,0 +1,203 @@
+{
+    "hero": {
+        "Performance":
+            {    
+            "maxSpeed": [20, 120],
+            "maxAcceleration": [20, 100],
+            "maxDeceleration": [20, 100]
+            }, 
+        "SpeedActionTarget":
+            {
+            "AbsoluteTargetSpeed": [10, 50]
+            }
+    }, 
+
+    "weather": {
+        "Sun": 
+            {
+                "azimuth": [0, 6.28], 
+                "intensity": [0, 1],
+                "elevation": [-1.57, 1.57]
+            },
+
+        "Fog":
+            {
+            "visualRange" : [1, 90]
+            },
+        
+        "Precipitation":
+            {
+                "precipitationType": "rain", 
+                "intensity": [0, 1]
+            }, 
+            
+        "RoadCondition":
+            {
+            "frictionScaleFactor": [0, 2]
+            }
+    }, 
+
+    "adversary": {
+        "Performance":
+            {    
+            "maxSpeed": [20, 100],
+            "maxAcceleration": [20, 100],
+            "maxDeceleration": [20, 100]
+            }, 
+
+        "SpeedActionTarget":
+            {
+            "AbsoluteTargetSpeed": [5, 30]
+            },
+ 
+        "LanePosition":
+            {
+            "s": [0, "max"] 
+            },
+
+        "Events": 
+        {
+            "ActorStarts":
+            {
+                "SpeedActionTarget":
+                {
+                    "AbsoluteTargetSpeed":  [5, 30]
+                }, 
+                "SpeedActionDynamics":
+                {
+                    "value":  [5, 50], 
+                    "dynamicsDimension" : "distance"
+                }
+            }, 
+            "ActorStopsAndWaits":
+            {
+                "SpeedActionDynamics":{
+                    "value": [0, 10],
+                    "dynamicsDimension" : "time"
+                }
+            }, 
+
+            "ActorDrivesAway": 
+            {
+                "SpeedActionTarget":
+                {
+                    "AbsoluteTargetSpeed":  [5, 30]
+                }, 
+                "SpeedActionDynamics":
+                {
+                    "value": [5, 50], 
+                    "dynamicsDimension" : "distance"
+                }
+            }
+        }
+    }, 
+
+    "pedestrian":{
+        "LanePosition":
+            {
+            "s": [0, "max"]
+            },
+
+        "Events": 
+            {
+                "PedestrianStarts":
+                {
+                    "SpeedActionTarget":
+                    {
+                        "AbsoluteTargetSpeed":  [1, 7]
+                    }, 
+                    "SpeedActionDynamics":
+                    {
+                        "value": [1, 7],
+                        "dynamicsDimension" : "distance"
+                    }, 
+                    "ReachPositionCondition":
+                    {
+                        "s":  [0, "max"]
+                    }
+                }, 
+                "PedestrianStopsAndWaits":
+                {
+                    "SpeedActionDynamics":{
+                        "value": [0, 10], 
+                        "dynamicsDimension" : "time"
+                    }
+                }, 
+    
+                "PedestrianWalksAway": 
+                {
+                    "SpeedActionTarget":
+                    {
+                        "AbsoluteTargetSpeed": [1, 7]
+                    }, 
+                    "SpeedActionDynamics":
+                    {
+                        "value":  [1, 7], 
+                        "dynamicsDimension" : "distance"
+                    }
+                }
+            }
+        
+
+    },
+
+    "bicycle":{
+        "Performance":
+            {    
+            "maxSpeed": [10, 50],
+            "maxAcceleration": [10, 50],
+            "maxDeceleration": [10, 50]
+            }, 
+
+        "SpeedActionTarget":
+            {
+            "AbsoluteTargetSpeed": [1, 10]
+            },
+ 
+        "LanePosition":
+            {
+            "s": [0, "max"]
+            },
+
+        "Events": 
+            {
+                "BicycleStarts":
+                {
+                    "SpeedActionTarget":
+                    {
+                        "AbsoluteTargetSpeed":  [1, 20]
+                    }, 
+                    "SpeedActionDynamics":
+                    {
+                        "value":  [1, 30], 
+                        "dynamicsDimension" : "distance"
+                    },
+                    "ReachPositionCondition":
+                        {
+                        "s": [0, "max"]
+                        }
+                }, 
+                "BicycleStopsAndWaits":
+                {
+                    "SpeedActionDynamics":{
+                        "value":[0, 10],
+                        "dynamicsDimension" : "time"
+                    }
+                }, 
+    
+                "BicycleDrivesAway": 
+                {
+                    "SpeedActionTarget":
+                    {
+                        "AbsoluteTargetSpeed":  [1, 20]
+                    }, 
+                    "SpeedActionDynamics":
+                    {
+                        "value":  [10, 50], 
+                        "dynamicsDimension" : "distance"
+                }
+            }
+        }
+
+    }
+}

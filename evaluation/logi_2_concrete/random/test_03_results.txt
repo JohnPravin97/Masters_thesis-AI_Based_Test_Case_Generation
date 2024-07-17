@@ -1,0 +1,60 @@
+Test_Number= 03,
+ Iterations = 1, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_bicycle_crossing_in_front', Time_Taken = 18.22s, Result = SUCCESS 
+
+Test_Number= 03,
+ Iterations = 2, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_bicycle_crossing_in_front', Time_Taken = 34.31s, Result = SUCCESS 
+
+Test_Number= 03,
+ Iterations = 3, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_bicycle_crossing_in_front', Time_Taken = 34.39s, Result = FAILED 
+
+Test_Number= 03,
+ Iterations = 4, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_bicycle_crossing_in_front', Time_Taken = 21.27s, Result = FAILED 
+
+Test_Number= 03,
+ Iterations = 5, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_bicycle_crossing_in_front', Time_Taken = 17.64s, Result = SUCCESS 
+
+Test_Number= 03,
+ Iterations = 6, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_bicycle_crossing_in_front', Time_Taken = 104.08s, Result = FAILED 
+
+Test_Number= 03,
+ Iterations = 7, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_bicycle_crossing_in_front', Time_Taken = 24.02s, Result = SUCCESS 
+
+Test_Number= 03,
+ Iterations = 8, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_bicycle_crossing_in_front', Time_Taken = 34.17s, Result = FAILED 
+
+Test_Number= 03,
+ Iterations = 9, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_bicycle_crossing_in_front', Time_Taken = 22.91s, Result = FAILED 
+
+Test_Number= 03,
+ Iterations = 10, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_bicycle_crossing_in_front', Time_Taken = 18.26s, Result = SUCCESS 
+
+Test_Number= 03,
+ Iterations = 11, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_bicycle_crossing_in_front', Time_Taken = 29.94s, Result = FAILED 
+
+Test_Number= 03,
+ Iterations = 12, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_bicycle_crossing_in_front', Time_Taken = 19.26s, Result = SUCCESS 
+
+Test_Number= 03,
+ Iterations = 13, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_bicycle_crossing_in_front', Time_Taken = 19.96s, Result = FAILED 
+
+Test_Number= 03,
+ Iterations = 14, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_bicycle_crossing_in_front', Time_Taken = 19.39s, Result = SUCCESS 
+
+Test_Number= 03,
+ Iterations = 15, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_bicycle_crossing_in_front', Time_Taken = 24.94s, Result = FAILED 
+

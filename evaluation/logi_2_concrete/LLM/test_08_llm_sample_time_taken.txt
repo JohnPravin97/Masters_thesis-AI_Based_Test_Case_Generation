@@ -1,0 +1,46 @@
+Test_Number= 08,
+ Iterations = 1, Technique_Used = 'LLM', Time_Taken = 30.51029658317566s 
+
+Test_Number= 08,
+ Iterations = 2, Technique_Used = 'LLM', Time_Taken = 29.357518434524536s 
+
+Test_Number= 08,
+ Iterations = 3, Technique_Used = 'LLM', Time_Taken = 27.45615029335022s 
+
+Test_Number= 08,
+ Iterations = 4, Technique_Used = 'LLM', Time_Taken = 40.40872812271118s 
+
+Test_Number= 08,
+ Iterations = 5, Technique_Used = 'LLM', Time_Taken = 39.74571895599365s 
+
+Test_Number= 08,
+ Iterations = 6, Technique_Used = 'LLM', Time_Taken = 33.69463014602661s 
+
+
+Test_Number= 08,
+ Iterations = 7, Technique_Used = 'LLM', Time_Taken = 28.95793080329895s 
+
+Test_Number= 08,
+ Iterations = 8, Technique_Used = 'LLM', Time_Taken = 55.830259799957275s 
+
+Test_Number= 08,
+ Iterations = 9, Technique_Used = 'LLM', Time_Taken = 28.993947982788086s 
+
+Test_Number= 08,
+ Iterations = 10, Technique_Used = 'LLM', Time_Taken = 27.598608255386353s 
+
+Test_Number= 08,
+ Iterations = 11, Technique_Used = 'LLM', Time_Taken = 20.386115074157715s 
+
+Test_Number= 08,
+ Iterations = 12, Technique_Used = 'LLM', Time_Taken = 29.956146001815796s 
+
+Test_Number= 08,
+ Iterations = 13, Technique_Used = 'LLM', Time_Taken = 31.383732795715332s 
+
+Test_Number= 08,
+ Iterations = 14, Technique_Used = 'LLM', Time_Taken = 21.680097341537476s 
+
+Test_Number= 08,
+ Iterations = 15, Technique_Used = 'LLM', Time_Taken = 30.239898681640625s 
+

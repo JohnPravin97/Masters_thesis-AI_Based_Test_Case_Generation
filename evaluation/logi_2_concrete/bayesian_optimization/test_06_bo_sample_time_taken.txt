@@ -1,0 +1,45 @@
+Test_Number= 06,
+ Iterations = 1, Technique_Used = 'bayesian_optimization', Time_Taken = 18.5208957195282s 
+
+Test_Number= 06,
+ Iterations = 2, Technique_Used = 'bayesian_optimization', Time_Taken = 24.107451677322388s 
+
+Test_Number= 06,
+ Iterations = 3, Technique_Used = 'bayesian_optimization', Time_Taken = 24.765746116638184s 
+
+Test_Number= 06,
+ Iterations = 4, Technique_Used = 'bayesian_optimization', Time_Taken = 24.015646934509277s 
+
+Test_Number= 06,
+ Iterations = 5, Technique_Used = 'bayesian_optimization', Time_Taken = 24.515353679656982s 
+
+Test_Number= 06,
+ Iterations = 6, Technique_Used = 'bayesian_optimization', Time_Taken = 25.17591381072998s 
+
+Test_Number= 06,
+ Iterations = 7, Technique_Used = 'bayesian_optimization', Time_Taken = 24.59894871711731s 
+
+Test_Number= 06,
+ Iterations = 8, Technique_Used = 'bayesian_optimization', Time_Taken = 24.405555725097656s 
+
+Test_Number= 06,
+ Iterations = 9, Technique_Used = 'bayesian_optimization', Time_Taken = 25.630039930343628s 
+
+Test_Number= 06,
+ Iterations = 10, Technique_Used = 'bayesian_optimization', Time_Taken = 26.075243711471558s 
+
+Test_Number= 06,
+ Iterations = 11, Technique_Used = 'bayesian_optimization', Time_Taken = 26.60743284225464s 
+
+Test_Number= 06,
+ Iterations = 12, Technique_Used = 'bayesian_optimization', Time_Taken = 27.426743984222412s 
+
+Test_Number= 06,
+ Iterations = 13, Technique_Used = 'bayesian_optimization', Time_Taken = 26.680286645889282s 
+
+Test_Number= 06,
+ Iterations = 14, Technique_Used = 'bayesian_optimization', Time_Taken = 25.088583946228027s 
+
+Test_Number= 06,
+ Iterations = 15, Technique_Used = 'bayesian_optimization', Time_Taken = 25.788819074630737s 
+

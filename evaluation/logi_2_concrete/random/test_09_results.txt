@@ -1,0 +1,60 @@
+Test_Number= 09,
+ Iterations = 1, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_same_direction_route', Time_Taken = 13.98s, Result = SUCCESS 
+
+Test_Number= 09,
+ Iterations = 2, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_same_direction_route', Time_Taken = 14.22s, Result = SUCCESS 
+
+Test_Number= 09,
+ Iterations = 3, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_same_direction_route', Time_Taken = 14.34s, Result = SUCCESS 
+
+Test_Number= 09,
+ Iterations = 4, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_same_direction_route', Time_Taken = 14.44s, Result = SUCCESS 
+
+Test_Number= 09,
+ Iterations = 5, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_same_direction_route', Time_Taken = 17.89s, Result = FAILED 
+
+Test_Number= 09,
+ Iterations = 6, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_same_direction_route', Time_Taken = 14.64s, Result = SUCCESS 
+
+Test_Number= 09,
+ Iterations = 7, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_same_direction_route', Time_Taken = 14.71s, Result = SUCCESS 
+
+Test_Number= 09,
+ Iterations = 8, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_same_direction_route', Time_Taken = 14.72s, Result = SUCCESS 
+
+Test_Number= 09,
+ Iterations = 9, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_same_direction_route', Time_Taken = 14.88s, Result = SUCCESS 
+
+Test_Number= 09,
+ Iterations = 10, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_same_direction_route', Time_Taken = 14.01s, Result = SUCCESS 
+
+Test_Number= 09,
+ Iterations = 11, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_same_direction_route', Time_Taken = 11.82s, Result = FAILED 
+
+Test_Number= 09,
+ Iterations = 12, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_same_direction_route', Time_Taken = 19.31s, Result = SUCCESS 
+
+Test_Number= 09,
+ Iterations = 13, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_same_direction_route', Time_Taken = 14.25s, Result = SUCCESS 
+
+Test_Number= 09,
+ Iterations = 14, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_same_direction_route', Time_Taken = 19.99s, Result = FAILED 
+
+Test_Number= 09,
+ Iterations = 15, Technique_Used = 'random', 
+ Scenario_name = 'hero_and_adversary_same_direction_route', Time_Taken = 14.29s, Result = SUCCESS 
+

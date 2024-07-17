@@ -1,0 +1,120 @@
+""" 
+## Instruction:
+Strictly mention the value corresponding to the parameter. Do not return the list as an output. 
+In context, all the list contains the two values, first value is the min number and second value is the max number. The range that you pick has to be withon these min and max value.
+The keys with a string value can be kept as it is. 
+You must balance exploration and exploitation trade-off.
+You shall find the previous iteration values in the list under Previous_iterations section, starting values representing the first iteration.
+You shall find the previous samples test scores in a list of numbers between 0 to 100 under Previous_results section, with 100 being failure of the hero vehicle at the max. You shall try to achieve the test score of 100 within 30 iterations.
+The test scores are calculated based on a set of Key performance index, a value more than 50% means the hero vehicle failed in that scenario. A test score as 0 means that the value selected causes errors in the scenario which leads to not able to test the hero vehicle.
+You shall provide a concrete value for all the parameters that should achieve the test score more than 50%. You have to make the hero vehicle fail in that scenario.
+You have in total of 30 iterations and You must try to maximize the result within these iterations. 
+You must select one value for each parameter within the list and the corresponding results will be updated to you in the next iteration. 
+You shall find a lot of failure cases within 30 iterations. 
+You shall be evaluation based on number of time you have achieved the test score of more than 50%.
+You shall think step-by-step.
+The hero always spawns on the min or max place of the "LanePosition" key. So no other actors can spawn at the min or max "LanePosition" key.
+When you get a low test score, it could be mainly due to the "LanePosition" variable. Use this knowledge to achieve higher test score.
+The key "LanePosition" describes the position in which the particular actor has to be spawned. So it should be unique for every actor as two actors can not spawn on the same each location. This could lead to error resulting in 0 test score.
+Strictly check the "Previous_iterations" and select the values closer to the maximum test results. 
+Keep chaning the LanePosition to a larger extend if the test score given in the "previous_results" are low.
+You shall not select the value exactly same as the previous ones. All the sampled values must be different.
+Note that the weather parameter is alone should contain float value and remaining parameters are either integer or string. 
+Strictly follow the text structure and syntax shown in the Example section below. Do not add anything more than that example text structure.
+Do not provide any explanation. Strictly provide only the json file.
+
+## Example: 
+{
+    "weather": {
+        "Sun": {
+            "azimuth": "3.12",
+            "intensity": "0.5",
+            "elevation": "1.2"
+        },
+        "RoadCondition": {
+            "frictionScaleFactor": "1"
+        }
+    },
+    "hero": {
+        "Performance": {
+            "maxSpeed": "90",
+            "maxAcceleration": "80",
+            "maxDeceleration": "40"
+        },
+        "SpeedActionTarget": {
+            "AbsoluteTargetSpeed": "25"
+        },
+        "RoutingAction": {
+            "s": "57"
+        }
+    },
+    "pedestrian": {
+        "LanePosition": {
+            "s": "51"
+        },
+        "Events": {
+            "PedestrianStarts": {
+                "SpeedActionTarget": {
+                    "AbsoluteTargetSpeed": "26"
+                },
+                "SpeedActionDynamics": {
+                    "value": "15",
+                    "dynamicsDimension": "distance"
+                },
+                "ReachPositionCondition": {
+                    "s": "82"
+                }
+            },
+            "PedestrianStopsAndWaits": {
+                "SpeedActionDynamics": {
+                    "value": "5",
+                    "dynamicsDimension": "time"
+                }
+            },
+            "PedestrianWalksAway": {
+                "SpeedActionTarget": {
+                    "AbsoluteTargetSpeed": "10"
+                },
+                "SpeedActionDynamics": {
+                    "value": "8",
+                    "dynamicsDimension": "distance"
+                }
+            }
+        }
+    },
+    "pedestriantwo": {
+        "LanePosition": {
+            "s": "56"
+        },
+        "Events": {
+            "PedestrianStarts": {
+                "SpeedActionTarget": {
+                    "AbsoluteTargetSpeed": "7"
+                },
+                "SpeedActionDynamics": {
+                    "value": "19",
+                    "dynamicsDimension": "distance"
+                },
+                "ReachPositionCondition": {
+                    "s": "61"
+                }
+            },
+            "PedestrianStopsAndWaits": {
+                "SpeedActionDynamics": {
+                    "value": "7",
+                    "dynamicsDimension": "time"
+                }
+            },
+            "PedestrianWalksAway": {
+                "SpeedActionTarget": {
+                    "AbsoluteTargetSpeed": "10"
+                },
+                "SpeedActionDynamics": {
+                    "value": "10",
+                    "dynamicsDimension": "distance"
+                }
+            }
+        }
+    }
+}
+"""

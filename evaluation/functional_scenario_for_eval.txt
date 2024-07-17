@@ -1,0 +1,888 @@
+### Requirement 1:
+"The hero vehicle shall encounter an adversary vehicle and a bicycle on the same lane on a single-lane road in the Town01 map."
+
+Label: '{ "map": "Town01", "road": "single_lane", "scenario": "hero_adversary_and_bicycle_on_the_same_lane"}'
+
+### Requirement 2:
+"In the Karlsruhe map, the hero vehicle shall navigate through a multi-lane road where a pedestrian shall cross in front of it during foggy weather."
+
+Label: '{ "map": "Karlsruhe", "road": "multi_lane", "scenario": "hero_and_pedestrian_crossing_in_front", "weather": "Fog"}'
+
+### Requirement 3:
+"A hero vehicle and a bicycle shall share the same lane on a single-lane road in the Town01 map under rainy conditions."
+
+Label: '{ "map": "Town01", "road": "single_lane", "scenario": "hero_and_bicycle_on_the_same_lane", "weather": "Rain"}'
+
+### Requirement 4:
+"The hero vehicle shall be tested with an adversary vehicle on the same lane on a single-lane road in Karlsruhe during sunny weather."
+
+Label: '{ "map": "Karlsruhe", "road": "single_lane", "scenario": "hero_and_adversary_on_the_same_lane", "weather": "Sun"}'
+
+### Requirement 5:
+"On a 4-way intersection in Karlsruhe, a scenario with the hero vehicle and an adversary vehicle taking different direction routes shall be executed."
+
+Label: '{ "map": "Karlsruhe", "road": "4_way_intersection", "scenario": "hero_and_adversary_different_direction_route"}'
+
+### Requirement 6:
+"In foggy weather, the hero vehicle and a pedestrian shall encounter each other at a 3-way intersection on the Karlsruhe map."
+
+Label: '{ "map": "Karlsruhe", "road": "3_way_intersection", "scenario": "hero_and_pedestrian_crossing_in_front", "weather": "Fog"}'
+
+### Requirement 7:
+"The Karlsruhe map shall feature a multi-lane road scenario where a hero vehicle encounters a bicycle crossing in front."
+
+Label: '{ "map": "Karlsruhe", "road": "multi_lane", "scenario": "hero_and_bicycle_crossing_in_front"}'
+
+### Requirement 8:
+"A hero vehicle and an adversary vehicle shall navigate the same route direction on a 4-way intersection in Karlsruhe during rainy weather."
+
+Label: '{ "map": "Karlsruhe", "road": "4_way_intersection", "scenario": "hero_and_adversary_same_direction_route", "weather": "Rain"}'
+
+### Requirement 9:
+"The hero vehicle shall be tested on a 3-way intersection in Town01 where it meets two pedestrians crossing in front under sunny conditions."
+
+Label: '{ "map": "Town01", "road": "3_way_intersection", "scenario": "hero_and_2_pedestrians_crossing_in_front", "weather": "Sun"}'
+
+### Requirement 10:
+"In Karlsruhe, the hero vehicle shall face a bicycle taking a opposite route direction on a 4-way intersection."
+
+Label: '{ "map": "Karlsruhe", "road": "4_way_intersection", "scenario": "hero_and_bicycle_opposite_direction_route"}'
+
+### Requirement 11:
+"The hero vehicle in Town01 shall navigate a single-lane road with an adversary vehicle and a bicycle on the same lane during fog."
+
+Label: '{ "map": "Town01", "road": "single_lane", "scenario": "hero_adversary_and_bicycle_on_the_same_lane", "weather": "Fog"}'
+
+### Requirement 12:
+"A scenario on a multi-lane road in the Karlsruhe map, where the hero vehicle and an adversary vehicle are on the same lane, shall be tested in rain."
+
+Label: '{ "map": "Karlsruhe", "road": "multi_lane", "scenario": "hero_and_adversary_on_the_same_lane", "weather": "Rain"}'
+
+### Requirement 13:
+"In sunny weather, the hero vehicle shall face a adversary vehicle and 2 pedestrian crossing in front at a 3-way intersection in Town01."
+
+Label: '{ "map": "Town01", "road": "3_way_intersection", "scenario": "hero_adversary_and_2_pedestrians_crossing_in_front", "weather": "Sun"}'
+
+### Requirement 14:
+"A hero vehicle in a sunny Karlsruhe will navigate a 4-way intersection where the hero and an adversary vehicles have opposing routes."
+
+Label: '{ "map": "Karlsruhe", "road": "4_way_intersection", "scenario": "hero_and_adversary_different_direction_route", "weather": "Sun"}'
+
+### Requirement 15:
+"The hero vehicle shall encounter a bicycle on the same lane in a single-lane road in the Town01 map."
+
+Label: '{ "map": "Town01", "road": "single_lane", "scenario": "hero_and_bicycle_on_the_same_lane"}'
+
+### Requirement 16:
+"In the Town01 map, the hero vehicle shall be tested on a 3-way intersection road with an adversary and two pedestrians crossing in front during rain."
+
+Label: '{ "map": "Town01", "road": "3_way_intersection", "scenario": "hero_adversary_and_2_pedestrians_crossing_in_front", "weather": "Rain"}'
+
+### Requirement 17:
+"On a sunny day, the hero vehicle and a bicycle shall follow the same direction route on a 4-way intersection in the Karlsruhe map."
+
+Label: '{ "map": "Karlsruhe", "road": "4_way_intersection", "scenario": "hero_and_bicycle_same_direction_route", "weather": "Sun"}'
+
+### Requirement 18:
+"A scenario with the hero vehicle and a pedestrian crossing in front at a 3-way intersection in Town01 shall occur under foggy conditions."
+
+Label: '{ "map": "Town01", "road": "3_way_intersection", "scenario": "hero_and_pedestrian_crossing_in_front", "weather": "Fog"}'
+
+### Requirement 19:
+"The Karlsruhe map's 3-way intersection shall feature the hero vehicle and two pedestrians crossing in front during a rainstorm."
+
+Label: '{ "map": "Karlsruhe", "road": "3_way_intersection", "scenario": "hero_and_2_pedestrians_crossing_in_front", "weather": "Rain"}'
+
+### Requirement 20:
+"On a single-lane road in Town01, the hero vehicle, facing sunny weather, shall encounter a bicycle and an adversary on the same lane."
+
+Label: '{ "map": "Town01", "road": "single_lane", "scenario": "hero_adversary_and_bicycle_on_the_same_lane", "weather": "Sun"}'
+
+### Requirement 21:
+"The hero vehicle shall experience a scenario on a single-lane road in Town01, involving a pedestrian crossing in front during fog."
+
+Label: '{ "map": "Town01", "road": "single_lane", "scenario": "hero_and_pedestrian_crossing_in_front", "weather": "Fog"}'
+
+### Requirement 22:
+"In Karlsruhe, on a 4-way intersection, the hero vehicle shall face a challenging scenario with an adversary and two pedestrians crossing in front during sunny weather."
+
+Label: '{ "map": "Karlsruhe", "road": "4_way_intersection", "scenario": "hero_adversary_and_2_pedestrians_crossing_in_front", "weather": "Sun"}'
+
+### Requirement 23:
+"A 3-way intersection in Town01 shall test the hero vehicle with a bicycle and a pedestrian crossing in front."
+
+Label: '{ "map": "Town01", "road": "3_way_intersection", "scenario": "hero_bicycle_and_pedestrian_crossing_in_front"}'
+
+### Requirement 24:
+"In foggy weather on a multi-lane road in Karlsruhe, the hero vehicle shall navigate a scenario with an adversary vehicle on the same lane."
+
+Label: '{ "map": "Karlsruhe", "road": "multi_lane", "scenario": "hero_and_adversary_on_the_same_lane", "weather": "Fog"}'
+
+### Requirement 25:
+"The hero vehicle in Town01 shall be tested at a 3-way intersection, facing an adversary vehicle taking a different route in sunny conditions."
+
+Label: '{ "map": "Town01", "road": "3_way_intersection", "scenario": "hero_and_adversary_different_direction_route", "weather": "Sun"}'
+
+### Requirement 26:
+"On a single-lane road in Karlsruhe, a scenario with the hero vehicle and a bicycle crossing in front shall be executed during a sunny day."
+
+Label: '{ "map": "Karlsruhe", "road": "single_lane", "scenario": "hero_and_bicycle_crossing_in_front", "weather": "Sun"}'
+
+### Requirement 27:
+"In the Town01 map, the hero vehicle shall encounter a scenario on a 3-way intersection with a bicycle and adversary vehicle."
+
+Label: '{ "map": "Town01", "road": "3_way_intersection", "scenario": "hero_and_bicycle_same_direction_adversary_opposite_route"}'
+
+### Requirement 28:
+"A sunny day scenario on a multi-lane road in Karlsruhe shall test the hero vehicle with two pedestrians crossing in front."
+
+Label: '{ "map": "Karlsruhe", "road": "multi_lane", "scenario": "hero_and_2_pedestrians_crossing_in_front", "weather": "Sun"}'
+
+### Requirement 29:
+"The hero vehicle shall be tested on a single-lane road in the Town01 map with an adversary vehicle on the same lane"
+
+Label: '{ "map": "Town01", "road": "single_lane", "scenario": "hero_and_adversary_on_the_same_lane"}'
+
+### Requirement 30:
+"In the Town01 map, the hero vehicle shall face a 3-way intersection scenario with a bicycle taking the different direction route during rainy weather."
+
+Label: '{ "map": "Town01", "road": "3_way_intersection", "scenario": "hero_and_bicycle_different_direction_route", "weather": "Rain"}'
+
+### Requirement 31:
+"The hero vehicle shall encounter a pedestrian crossing in front on a single lane road."
+
+Label: 
+'{ 
+"road": "single_lane",
+"scenario": "hero_and_pedestrian_crossing_in_front"
+}'
+
+### Requirement 32:
+"The ego vehicle shall be tested on a multi-lane road with the scenario including a bicycle crossing in front."
+
+Label: 
+'{
+"map": "Karlsruhe", 
+"road": "multi_lane",
+"scenario": "hero_and_bicycle_crossing_in_front"
+}'
+
+### Requirement 33:
+"Under sunny conditions, the hero vehicle shall face an adversary and a bicycle on the same lane on a single-lane road."
+
+Label: 
+'{
+"road": "single_lane",
+"scenario": "hero_adversary_and_bicycle_on_the_same_lane",
+"weather": "Sun"
+}'
+
+### Requirement 34:
+"The ego or hero vehicle shall be tested with an adversary vehicle on the same lane on a multi-lane road."
+
+Label:
+'{
+"road": "multi_lane",
+"scenario": "hero_and_adversary_on_the_same_lane"
+}'
+
+### Requirement 35:
+"The hero vehicle shall navigate a 3-way intersection with an adversary taking the same direction route under rainy conditions."
+
+Label:
+'{
+"road": "3_way_intersection",
+"scenario": "hero_and_adversary_same_direction_route",
+"weather": "Rain"
+}'
+
+### Requirement 36:
+"On a 4-way intersection, the hero vehicle shall encounter two pedestrians crossing in front during sunny weather."
+
+Label:
+'{
+"map": "Karlsruhe",
+"road": "4_way_intersection",
+"scenario": "hero_and_2_pedestrians_crossing_in_front",
+"weather": "Sun"
+}'
+
+### Requirement 37:
+"The hero vehicle shall be tested on a single lane road with a scenario of facing a bicycle on the same lane under foggy weather."
+
+Label:
+'{
+"road": "single_lane",
+"scenario": "hero_and_bicycle_on_the_same_lane",
+"weather": "Fog"
+}'
+
+### Requirement 38:
+"In Karlsruhe map, the hero vehicle shall encounter a pedestrian crossing in front on a multi-lane road during rainy conditions."
+
+Label: 
+'{
+"map": "Karlsruhe", 
+"road": "multi_lane",
+"scenario": "hero_and_pedestrian_crossing_in_front",
+"weather": "Rain"
+}'
+
+### Requirement 39:
+"The ego or hero vehicle shall be controlled by ADAS. The scenario shall involve an adversary vehicle on the same route on a 3-way intersection."
+
+Label:
+'{
+"road": "3_way_intersection",
+"scenario": "hero_and_adversary_same_direction_route",
+"controller": "ADAS"
+}'
+
+### Requirement 40:
+"The hero vehicle shall face a situation with an adversary and two pedestrians crossing in front at a 4-way intersection during sunny weather."
+
+Label:
+'{
+"map": "Karlsruhe",
+"road": "4_way_intersection",
+"scenario": "hero_adversary_and_2_pedestrians_crossing_in_front",
+"weather": "Sun"
+}'
+
+### Requirement 41:
+"On a single lane road in Town01, the hero vehicle shall encounter a pedestrian crossing in front under rainy conditions."
+
+Label:
+'{
+"map": "Town01",
+"road": "single_lane",
+"scenario": "hero_and_pedestrian_crossing_in_front",
+"weather": "Rain"
+}'
+
+### Requirement 42:
+"The scenario where the hero, a adversary, and a bicycle move on the same lane shall be tested on a multi-lane road during foggy weather."
+
+Label:
+'{
+"map": "Karlsruhe",
+"road": "multi_lane",
+"scenario": "hero_adversary_and_bicycle_on_the_same_lane",
+"weather": "Fog"
+}'
+
+### Requirement 43:
+"In sunny weather, the hero vehicle shall navigate a 3-way intersection with an adversary taking a different direction route."
+
+Label:
+'{
+"road": "3_way_intersection",
+"scenario": "hero_and_adversary_different_direction_route",
+"weather": "Sun"
+}'
+
+### Requirement 44:
+"The hero vehicle shall be tested with a bicycle and pedestrian crossing in front at a 3-way intersection during rainy conditions."
+
+Label:
+'{
+"road": "3_way_intersection",
+"scenario": "hero_bicycle_and_pedestrian_crossing_in_front",
+"weather": "Rain"
+}'
+
+### Requirement 45:
+"Under foggy conditions, the hero vehicle shall face an adversary and a bicycle on the same lane on a multi-lane road."
+
+Label: 
+'{
+"map": "Karlsruhe", 
+"road": "multi_lane",
+"scenario": "hero_adversary_and_bicycle_on_the_same_lane",
+"weather": "Fog"
+}'
+
+### Requirement 46:
+"The ego or hero vehicle shall be controlled by Carla Autopilot on a 3-way intersection with a bicycle going the same direction where as an adversary on a opposite direction."
+
+Label:
+'{
+"road": "3_way_intersection",
+"scenario": "hero_and_bicycle_same_direction_adversary_opposite_route",
+"controller": "Carla_AutoPilot"
+}'
+
+### Requirement 47:
+"The scenario of a hero vehicle and bicycle moving in the same direction shall be tested on a 4-way intersection during sunny weather."
+
+Label: 
+'{
+"map": "Karlsruhe", 
+"road": "4_way_intersection",
+"scenario": "hero_and_bicycle_same_direction_route",
+"weather": "Sun"
+}'
+
+### Requirement 48:
+"The hero vehicle shall engage in a scenario with an adversary and a pedestrian crossing in front on a 3-way intersection during rainy weather."
+
+Label: 
+'{
+"road": "3_way_intersection",
+"scenario": "hero_adversary_and_pedestrian_crossing_in_front",
+"weather": "Rain"
+}'
+
+### Requirement 49:
+"In foggy conditions, the hero vehicle shall navigate a situation with a bicycle and a pedestrian crossing in front at a 4-way intersection."
+
+Label: 
+'{
+"map": "Karlsruhe", 
+"road": "4_way_intersection",
+"scenario": "hero_bicycle_and_pedestrian_crossing_in_front",
+"weather": "Fog"
+}'
+
+### Requirement 50:
+"The hero vehicle shall face a scenario with a bicycle moving in a different direction on a 3-way intersection in Town01 under sunny conditions."
+
+Label: 
+'{
+"map": "Town01", 
+"road": "3_way_intersection",
+"scenario": "hero_and_bicycle_different_direction_route",
+"weather": "Sun"
+}'
+
+### Requirement 51:
+"On a single lane road in Town01, under rainy conditions, the hero vehicle shall encounter an adversary and a bicycle in the same lane."
+
+Label: 
+'{
+"map": "Town01", 
+"road": "single_lane",
+"scenario": "hero_adversary_and_bicycle_on_the_same_lane",
+"weather": "Rain"
+}'
+
+### Requirement 52:
+"The ego vehicle shall be tested in a foggy weather scenario with an adversary on the same lane on a multi-lane road."
+
+Label:
+'{
+"map": "Karlsruhe",
+"road": "multi_lane",
+"scenario": "hero_and_adversary_on_the_same_lane",
+"weather": "Fog"
+}'
+
+### Requirement 53:
+"In sunny weather, the hero vehicle shall navigate a 4-way intersection with two pedestrians crossing in front."
+
+Label:
+'{
+"map": "Karlsruhe",
+"road": "4_way_intersection",
+"scenario": "hero_and_2_pedestrians_crossing_in_front",
+"weather": "Sun"
+}'
+
+### Requirement 54:
+"The hero vehicle's scenario on a 3-way intersection shall involve an adversary and two pedestrians crossing in front"
+
+Label:
+'{
+"road": "3_way_intersection",
+"scenario": "hero_adversary_and_2_pedestrians_crossing_in_front"
+}'
+
+### Requirement 55:
+"Under foggy conditions, the hero vehicle controlled by Carla autopilot shall encounter an adversary taking the same direction route on a 3-way intersection."
+
+Label:
+'{
+"road": "3_way_intersection",
+"scenario": "hero_and_adversary_same_direction_route",
+"controller": "Carla_AutoPilot",
+"weather": "Fog"
+}'
+
+### Requirement 56:
+"The ego vehicle shall face an adversary and a bicycle on the same lane while navigating a single-lane road during sunny weather."
+
+Label:
+'{
+"road": "single_lane",
+"scenario": "hero_adversary_and_bicycle_on_the_same_lane",
+"weather": "Sun"
+}'
+
+### Requirement 57:
+"In town01, The scenario where the hero vehicle and a bicycle are in the same direction with an adversary on the opposite route shall be tested on a 3-way intersection in rainy weather."
+
+Label:
+'{
+"map": "Town01",
+"road": "3_way_intersection",
+"scenario": "hero_and_bicycle_same_direction_adversary_opposite_route",
+"weather": "Rain"
+}'
+
+### Requirement 58:
+"In foggy conditions, the hero vehicle shall navigate a multi-lane road with a pedestrian crossing in front."
+
+Label:
+'{
+"map": "Karlsruhe",
+"road": "multi_lane",
+"scenario": "hero_and_pedestrian_crossing_in_front",
+"weather": "Fog"
+}'
+
+### Requirement 59:
+"In town01, The hero vehicle shall be tested with an adversary and a pedestrian crossing in front on a single lane road."
+
+Label:
+'{
+"map": "Town01",
+"road": "single_lane",
+"scenario": "hero_adversary_and_pedestrian_crossing_in_front"
+}'
+
+### Requirement 60:
+"On a 4-way intersection, during rainy weather, the hero vehicle shall face a bicycle going a different direction."
+
+Label:
+'{
+"map": "Karlsruhe",
+"road": "4_way_intersection",
+"scenario": "hero_and_bicycle_different_direction_route",
+"weather": "Rain"
+}'
+
+### Requirement 61:
+"The ego or hero vehicle shall be tested during foggy conditions with an adversary vehicle in front occupying the same lane on a multi-lane road."
+
+Label: 
+'{
+"map": "Karlsruhe", 
+"road": "multi_lane",
+"scenario": "hero_and_adversary_on_the_same_lane",
+"weather": "Fog"
+}'
+
+### Requirement 62:
+"The hero vehicle shall encounter a pedestrian crossing in front on a single-lane road under rainy weather."
+
+Label: 
+'{
+"road": "single_lane",
+"scenario": "hero_and_pedestrian_crossing_in_front",
+"weather": "Rain"
+}'
+
+### Requirement 63:
+"In Town01, the hero vehicle shall navigate a 3-way intersection with a bicycle driving in the opposite direction route."
+
+Label: 
+'{
+"map": "Town01",
+"road": "3_way_intersection",
+"scenario": "hero_and_bicycle_different_direction_route"
+}'
+
+### Requirement 64:
+"A scenario includes the hero vehicle and bicycle moving in the same lane on a single lane road under sunny conditions in Karlsruhe."
+
+Label: 
+'{
+"map": "Karlsruhe",
+"road": "single_lane",
+"scenario": "hero_and_bicycle_on_the_same_lane",
+"weather": "Sun"
+}'
+
+### Requirement 65:
+"The hero vehicle shall be challenged with negotiating with an adversary and a bicycle on the same lane during fog on a multi-lane road."
+
+Label: 
+'{
+"map": "Karlsruhe",
+"road": "multi_lane",
+"scenario": "hero_adversary_and_bicycle_on_the_same_lane",
+"weather": "Fog"
+}'
+
+### Requirement 66:
+"At the 4-way intersection, the hero vehicle shall face an adversary coming from a different direction route under rainy conditions."
+
+Label: 
+'{
+"map": "Karlsruhe",
+"road": "4_way_intersection",
+"scenario": "hero_and_adversary_different_direction_route",
+"weather": "Rain"
+}'
+
+### Requirement 67:
+"In town01, The hero vehicle controlled by Carla autopilot and an adversary shall pursue the same direction route at a 3-way intersection on a clear day."
+
+Label: 
+'{
+"map": "Town01",
+"road": "3_way_intersection",
+"controller": "Carla_AutoPilot",
+"scenario": "hero_and_adversary_same_direction_route",
+"weather": "Sun"
+}'
+
+### Requirement 68:
+"A pedestrian and a bicycle shall simultaneously cross in front of the hero vehicle at a 4-way intersection in Karlsruhe."
+
+Label: 
+'{
+"map": "Karlsruhe",
+"road": "4_way_intersection",
+"scenario": "hero_bicycle_and_pedestrian_crossing_in_front"
+}'
+
+### Requirement 69:
+"The hero vehicle shall encounter two pedestrians crossing in front at a 3-way intersection in town01 during a rainstorm."
+
+Label: 
+'{
+"map": "Town01",
+"road": "3_way_intersection",
+"scenario": "hero_and_2_pedestrians_crossing_in_front",
+"weather": "Rain"
+}'
+
+### Requirement 70:
+"In Karlsruhe, the hero vehicle shall test its performance on a multi-lane road with an adversary vehicle on the same lane."
+
+Label: 
+'{
+"map": "Karlsruhe", 
+"road": "multi_lane",
+"scenario": "hero_and_adversary_on_the_same_lane"
+}'
+
+### Requirement 71:
+"The hero vehicle shall test with two pedestrians crossing in front on a foggy day at a 3-way intersection in Town01."
+
+Label:
+'{
+"map": "Town01",
+"road": "3_way_intersection",
+"scenario": "hero_and_2_pedestrians_crossing_in_front",
+"weather": "Fog"
+}'
+
+### Requirement 72:
+"In Town01, under rainy conditions, an adversary and hero vehicle shall navigate a 3-way intersection sharing the same direction."
+
+Label:
+'{
+"map": "Town01",
+"road": "3_way_intersection",
+"scenario": "hero_and_adversary_same_direction_route",
+"weather": "Rain"
+}'
+
+### Requirement 73:
+"The scenario shall include a hero vehicle and a bicycle crossing in front on a single lane."
+
+Label:
+'{
+"road": "single_lane",
+"scenario": "hero_and_bicycle_crossing_in_front"
+}'
+
+### Requirement 74:
+"At Karlsruhe, a bicycle and a pedestrian shall simultaneously cross in front of the hero vehicle on a foggy day at a 3-way intersection."
+
+Label:
+'{
+"map": "Karlsruhe",
+"road": "3_way_intersection",
+"scenario": "hero_bicycle_and_pedestrian_crossing_in_front",
+"weather": "Fog"
+}'
+
+### Requirement 75:
+"The hero vehicle shall face an adversary vehicle and two pedestrians crossing in front during sunny conditions on a 4-way intersection."
+
+Label:
+'{
+"map": "Karlsruhe",
+"road": "4_way_intersection",
+"scenario": "hero_adversary_and_2_pedestrians_crossing_in_front",
+"weather": "Sun"
+}'
+
+### Requirement 76:
+"In foggy conditions, the hero vehicle shall navigate a multi-lane with a bicycle in the same lane."
+
+Label:
+'{
+"map": "Karlsruhe",
+"road": "multi_lane",
+"scenario": "hero_and_bicycle_on_the_same_lane",
+"weather": "Fog"
+}'
+
+### Requirement 77:
+"The hero vehicle and an adversary vehicle shall navigate a 3-way intersection in opposite route directions under clear skies."
+
+Label:
+'{
+"road": "3_way_intersection",
+"scenario": "hero_and_adversary_different_direction_route",
+"weather": "Sun"
+}'
+
+### Requirement 78:
+"Under fog conditions, the hero vehicle shall be tested at a 4-way intersection with two pedestrians crossing in front."
+
+Label:
+'{
+"map": "Karlsruhe",
+"road": "4_way_intersection",
+"scenario": "hero_and_2_pedestrians_crossing_in_front",
+"weather": "Fog"
+}'
+
+### Requirement 79:
+"In sunny weather, the hero vehicle shall face a bicycle and adversary vehicle on the same lane on a single-lane road in Town01."
+
+Label:
+'{
+"map": "Town01",
+"road": "single_lane",
+"scenario": "hero_adversary_and_bicycle_on_the_same_lane",
+"weather": "Sun"
+}'
+
+### Requirement 80:
+"At a 4-way intersection during rainy conditions, the hero vehicle shall encounter a bicycle driving in a different direction route."
+
+Label:
+'{
+"map": "Karlsruhe",
+"road": "4_way_intersection",
+"scenario": "hero_and_bicycle_different_direction_route",
+"weather": "Rain"
+}'
+
+### Requirement 81:
+"In town01, the hero vehicle shall demonstrate how to handle a same direction bicycle route under rainy conditions on a single-lane road."
+
+Label:
+'{
+"map": "Town01",
+"road": "single_lane",
+"scenario": "hero_and_bicycle_on_the_same_lane",
+"weather": "Rain"
+}'
+
+### Requirement 82:
+"The hero vehicle will navigate through a sunny Town01, avoiding a bicycle on the same lane at a 3-way intersection."
+
+Label:
+'{
+"map": "Town01",
+"road": "3_way_intersection",
+"scenario": "hero_and_bicycle_same_direction_route",
+"weather": "Sun"
+}'
+
+### Requirement 83:
+"On a foggy day, the hero vehicle shall be tested on a 3-way intersection in town01 with an adversary vehicle and a pedestrian crossing in front."
+
+Label:
+'{
+"map": "Town01",
+"road": "3_way_intersection",
+"scenario": "hero_adversary_and_pedestrian_crossing_in_front",
+"weather": "Fog"
+}'
+
+### Requirement 84:
+"The hero vehicle shall face an adversary vehicle and two pedestrians crossing in front on a sunny day at a 3-way intersection in Town01."
+
+Label:
+'{
+"map": "Town01",
+"road": "3_way_intersection",
+"scenario": "hero_adversary_and_2_pedestrians_crossing_in_front",
+"weather": "Sun"
+}'
+
+### Requirement 85:
+"In Karlsruhe, under rainy weather, the hero vehicle will navigate a multi-lane road with a bicycle and adversary on the same lane."
+
+Label:
+'{
+"map": "Karlsruhe",
+"road": "multi_lane",
+"scenario": "hero_adversary_and_bicycle_on_the_same_lane",
+"weather": "Rain"
+}'
+
+### Requirement 86:
+"The hero vehicle shall be tested on a single-lane road during fog, encountering a bicycle crossing in front in Town01."
+
+Label:
+'{
+"map": "Town01",
+"road": "single_lane",
+"scenario": "hero_and_bicycle_crossing_in_front",
+"weather": "Fog"
+}'
+
+### Requirement 87:
+"At a 3-way intersection in Karlsruhe on a clear day, the hero vehicle shall confront a bicycle on the same route and an adversary on the opposite route."
+
+Label:
+'{
+"map": "Karlsruhe",
+"road": "3_way_intersection",
+"scenario": "hero_and_bicycle_same_direction_adversary_opposite_route",
+"weather": "Sun"
+}'
+
+### Requirement 88:
+"The hero vehicle shall deal with an adversary and bicycle on the same lane during sunny weather on a single-lane road in Karlsruhe."
+
+Label:
+'{
+"map": "Karlsruhe",
+"road": "single_lane",
+"scenario": "hero_adversary_and_bicycle_on_the_same_lane",
+"weather": "Sun"
+}'
+
+### Requirement 89:
+"In Town01, during a rainy day, the hero vehicle will be tested with an adversary vehicle on the same lane at a 3-way intersection."
+
+Label:
+'{
+"map": "Town01",
+"road": "3_way_intersection",
+"scenario": "hero_and_adversary_same_direction_route",
+"weather": "Rain"
+}'
+
+### Requirement 90:
+"On a foggy day in Karlsruhe, the hero vehicle will navigate a 3-way intersection with an adversary vehicle coming from a different direction."
+
+Label:
+'{
+"map": "Karlsruhe",
+"road": "3_way_intersection",
+"scenario": "hero_and_adversary_different_direction_route",
+"weather": "Fog"
+}'
+
+### Requirement 91:
+"In Town01, The scenario shall include a hero vehicle controlled by carla autopilot and an adversary vehicle on the same lane on a single lane road."
+
+Label: 
+'{
+"map": "Town01", 
+"road": "single_lane",
+"scenario": "hero_and_adversary_on_the_same_lane",
+"controller": "Carla_AutoPilot"
+}'
+
+### Requirement 92: 
+"The hero vehicle shall navigate a scenario where it and an adversary vehicle have different routes at a 3-way intersection."
+
+Label: 
+'{
+"road": "3_way_intersection",
+"scenario": "hero_and_adversary_different_direction_route"
+}'
+
+### Requirement 93:
+"In foggy conditions, the hero vehicle shall encounter a pedestrian crossing in front on a single lane road."
+
+Label: 
+'{
+"road": "single_lane",
+"scenario": "hero_and_pedestrian_crossing_in_front",
+"weather": "Fog"
+}'
+
+### Requirement 94:
+"The hero vehicle shall be tested on a multi-lane road with a bicycle crossing in front scenario."
+
+Label: 
+'{
+"map": "Karlsruhe",
+"road": "multi_lane",
+"scenario": "hero_and_bicycle_crossing_in_front"
+}'
+
+### Requirement 95:
+"A scenario shall involve the hero vehicle and a bicycle on the same lane."
+
+Label: 
+'{
+"road": "single_lane",
+"scenario": "hero_and_bicycle_on_the_same_lane"
+}'
+
+### Requirement 96:
+"The hero vehicle shall experience a scenario with a bicycle and an adversary vehicle on the same lane on a multi-lane road."
+
+Label: 
+'{
+"map": "Karlsruhe",
+"road": "multi_lane",
+"scenario": "hero_adversary_and_bicycle_on_the_same_lane"
+}'
+
+### Requirement 97:
+"A scenario with the hero vehicle, an adversary vehicle, and two pedestrians crossing in front shall be tested on a 4-way intersection."
+
+Label: 
+'{
+"map": "Karlsruhe",
+"road": "4_way_intersection",
+"scenario": "hero_adversary_and_2_pedestrians_crossing_in_front"
+}'
+
+### Requirement 98:
+"In town01, The hero vehicle controlled by ADAS and an adversary vehicle shall share the same direction route on a 3-way intersection under sunny conditions."
+
+Label: 
+'{
+"map": "Town01",
+"road": "3_way_intersection",
+"scenario": "hero_and_adversary_same_direction_route",
+"weather": "Sun",
+"controller": "ADAS"
+}'
+
+### Requirement 99:
+"A scenario will involve the hero vehicle with a bicycle and pedestrian crossing in front on a 3-way intersection in karlsruhe."
+
+Label: 
+'{
+"map": "Karlsruhe",
+"road": "3_way_intersection",
+"scenario": "hero_bicycle_and_pedestrian_crossing_in_front"
+}'
+
+### Requirement 100:
+"In Town01, The hero vehicle shall be tested on a single lane road in a scenario involving a bicycle on the same lane during foggy weather."
+
+Label: 
+'{
+"map": "Town01",
+"road": "single_lane",
+"scenario": "hero_and_bicycle_on_the_same_lane",
+"weather": "Fog"
+}'

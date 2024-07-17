@@ -1,0 +1,60 @@
+Test_Number= 02,
+ Iterations = 1, Technique_Used = 'LLM', 
+ Scenario_name = 'hero_and_pedestrian_crossing_in_front', Time_Taken = 32.74s, Result = SUCCESS 
+
+Test_Number= 02,
+ Iterations = 2, Technique_Used = 'LLM', 
+ Scenario_name = 'hero_and_pedestrian_crossing_in_front', Time_Taken = 46.53s, Result = FAILED 
+
+Test_Number= 02,
+ Iterations = 3, Technique_Used = 'LLM', 
+ Scenario_name = 'hero_and_pedestrian_crossing_in_front', Time_Taken = 0.0s, Result = ERROR 
+
+Test_Number= 02,
+ Iterations = 4, Technique_Used = 'LLM', 
+ Scenario_name = 'hero_and_pedestrian_crossing_in_front', Time_Taken = 32.72s, Result = SUCCESS 
+
+Test_Number= 02,
+ Iterations = 5, Technique_Used = 'LLM', 
+ Scenario_name = 'hero_and_pedestrian_crossing_in_front', Time_Taken = 32.79s, Result = SUCCESS 
+
+Test_Number= 02,
+ Iterations = 6, Technique_Used = 'LLM', 
+ Scenario_name = 'hero_and_pedestrian_crossing_in_front', Time_Taken = 32.85s, Result = SUCCESS 
+
+Test_Number= 02,
+ Iterations = 7, Technique_Used = 'LLM', 
+ Scenario_name = 'hero_and_pedestrian_crossing_in_front', Time_Taken = 32.78s, Result = SUCCESS 
+
+Test_Number= 02,
+ Iterations = 8, Technique_Used = 'LLM', 
+ Scenario_name = 'hero_and_pedestrian_crossing_in_front', Time_Taken = 32.97s, Result = SUCCESS 
+
+Test_Number= 02,
+ Iterations = 9, Technique_Used = 'LLM', 
+ Scenario_name = 'hero_and_pedestrian_crossing_in_front', Time_Taken = 32.81s, Result = SUCCESS 
+
+Test_Number= 02,
+ Iterations = 10, Technique_Used = 'LLM', 
+ Scenario_name = 'hero_and_pedestrian_crossing_in_front', Time_Taken = 32.8s, Result = SUCCESS 
+
+Test_Number= 02,
+ Iterations = 11, Technique_Used = 'LLM', 
+ Scenario_name = 'hero_and_pedestrian_crossing_in_front', Time_Taken = 32.81s, Result = SUCCESS 
+
+Test_Number= 02,
+ Iterations = 12, Technique_Used = 'LLM', 
+ Scenario_name = 'hero_and_pedestrian_crossing_in_front', Time_Taken = 32.77s, Result = SUCCESS 
+
+Test_Number= 02,
+ Iterations = 13, Technique_Used = 'LLM', 
+ Scenario_name = 'hero_and_pedestrian_crossing_in_front', Time_Taken = 32.77s, Result = SUCCESS 
+
+Test_Number= 02,
+ Iterations = 14, Technique_Used = 'LLM', 
+ Scenario_name = 'hero_and_pedestrian_crossing_in_front', Time_Taken = 32.87s, Result = SUCCESS 
+
+Test_Number= 02,
+ Iterations = 15, Technique_Used = 'LLM', 
+ Scenario_name = 'hero_and_pedestrian_crossing_in_front', Time_Taken = 32.74s, Result = SUCCESS 
+
